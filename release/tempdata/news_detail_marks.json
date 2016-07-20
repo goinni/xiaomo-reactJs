@@ -1,0 +1,19 @@
+{
+    "status": 0,
+    "message": "资讯详情-标签",
+    "result":{
+        "currentPage":"1",
+        "pageSize":"10",
+        "totalItems":"100",
+        "datas":[{
+            "id": 1,
+            "name": "爱美女士"
+        },{
+            "id": 2,
+            "name": "健美人士"
+        },{
+            "id": 3,
+            "name": "职场精英"
+        }]
+    }
+}

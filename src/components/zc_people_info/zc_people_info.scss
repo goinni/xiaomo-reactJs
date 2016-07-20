@@ -1,0 +1,63 @@
+.zc-peopleinfo-page-header{}
+.zc-peopleinfo-page-body{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    .banner{
+        width: 100%;
+        max-height: 12.4375rem;
+        overflow: hidden;
+        background: #FFF;
+        img{
+            width: 100%;
+            border: none;
+            margin: 0px;
+            padding: 0px;
+           
+        }
+    }
+    .table-view {
+        background: #f8f8f8;
+        .table-view-cell{
+            position: relative;
+            background-position: 0px 100%;
+            color: #707070;
+            select{
+                position: absolute;
+                top: 0px;
+                right: 0px;
+                width: 80%;
+                height: 100%;
+                border: none;
+                opacity: 0;
+            }
+            &:nth-child(1){
+                div:after {
+                    content: '';
+                }
+            };
+            input{
+                display: inline-block;
+                width: 80%;
+                margin: 0px;
+                padding: 0px 0 0 10px;
+                height: 20px;
+                font-size: 0.75rem;
+                border: none;
+                background: #f8f8f8;
+            }
+            .badge{
+                background: none;
+            }
+        }
+    }
+    .btn-negative{
+        width: 80%;
+        height: 44px;
+        line-height: 44px;
+        overflow: hidden;
+        border-radius: 22px;
+        margin: 0 auto;
+        padding: 0px;
+    }
+}

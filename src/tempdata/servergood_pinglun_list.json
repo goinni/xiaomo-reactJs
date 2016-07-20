@@ -1,0 +1,34 @@
+{
+    "result":
+    {
+        "servid":"ACC2537FD66042B7A9CD969C548C01FC",
+        "pageSize":10,
+        "totalPage":1,
+        "currentPage":1,
+        "previousPage":1,
+        "nextPage":1,
+        "topPage":1,
+        "bottomPage":1,
+        "totalItems":2,
+        "datas":
+            [
+                {
+                    "content":"这是服务商品评论内容",
+                    "user":{"name":"灰太狼","phonenum":"13888888888","nikename":"精力旺盛","faceimg":"/assets/tx2.jpg"},
+                    "userid":"7EDA0591165E4E018396F079114B2001",
+                    "comtid":"117AD510A3EB4103A1D820E098C00EB7",
+                    "addtime":"2016-02-27 22:36:31",
+                },
+                {
+                    "content":"这是服务商品评论内容2",
+                    "user":{"name":"灰太狼","phonenum":"13888888888","nikename":"精力旺盛","faceimg":"/assets/tx2.jpg"},
+                    "userid":"1",
+                    "comtid":"1",
+                    "addtime":"2016-02-02 22:14:00"
+                }
+            ],
+        "startRow":0,"endRow":2,"splitPage":true
+    },
+    "status":0,
+    "message":"请求成功_找到匹配数据"
+}

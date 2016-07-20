@@ -1,0 +1,470 @@
+/*没有顶部导航条时加上*/
+body.no-top-bar{
+    iframe{
+        margin-top: 0 !important;
+    }
+    .markdetail-chang-nav-title{
+        top:0px!important;
+    }
+    .mine-like-three-nav{
+        top:0px!important;
+    }
+    .community-window-nav-title{
+        top:0px!important;
+    }
+    #page-header-part{
+        top: -10rem !important;
+    }
+    #page-content-part{
+        padding-top: 0px!important;
+        margin-top: 0px!important;
+    }
+}
+body.has-top-bar{
+    #page-header-part{
+        top:0px!important;
+        height: 64px!important;
+        padding-top: 20px !important;
+    }
+    #page-content-part{
+        margin-top: 64px!important;
+        padding-top: 0px!important;
+    }
+}
+body.no-timer-top-bar{
+    #page-header-part{
+        top:0px!important;
+        height: 44px!important;
+        padding-top: 0px !important;
+    }
+    #page-content-part{
+        margin-top: 44px!important;
+        padding-top: 0px!important;
+    }
+}
+/*没有底剖menu*/
+body.no-footer-bar{
+    #footer-menubar-part{
+        left:-100rem !important;
+    }
+}
+#page-header-part{
+    background-color: rgba(255,255,255,0.8);
+    padding: 0px !important;
+    .title{
+        font-size: 1rem;
+        padding-left: 0.625rem;
+    }
+    .pull-left{
+        padding-left: 0.625rem;
+    }
+    .pull-right{
+        padding-right: 0.625rem;
+    }
+    .icon,.title{
+        color: #000;
+        font-weight: normal;
+    }
+}
+/*购物车工具条*/
+#buy_car_bar{
+    padding: 0px;
+    display: none;
+    background: #FFF;
+    a{
+        height: 44px;
+        line-height: 44px;
+        padding: 0px 10px;
+        text-align: center;
+    }
+    .pull-left{
+        width: 70px;
+        padding: 0px;
+        background: url('../assets/p3.png') center center no-repeat;
+        background-size: 40%;
+        position: relative;
+        span{
+            position: absolute;
+            top: 3px;
+            right: 2px;
+            width: 20px;
+            height: 20px;
+            border-radius: 10px;
+            background-color: #f45051;
+            color: #FFF;
+            text-align: center;
+            line-height: 20px;
+            font-size: 11px;
+        }
+    }
+    .pull-right{
+        width: 6.25rem;
+        color: #FFF;
+        background: #f45051;
+        font-size: 0.875rem;
+        &:before{
+            content:"加入购物车";
+        };
+        &:active{
+            background-color:#980102;
+            transition: all .1s;
+        };
+    }
+    .pull-right.over{
+        width: 6.25rem;
+        color: #FFF;
+        background: #838b96;
+        font-size: 0.875rem;
+        &:before{
+            content:"已售完";
+        };
+        &:active{
+            background-color:#980102;
+            transition: all .1s;
+        };
+    }
+}
+/*购物车清单列表 工具条*/
+#buy_car_info_bar,#confirm_order_bar{
+    padding: 0px;
+    display: none;
+    background: #FFF;
+    a{
+        height: 44px;
+        line-height: 44px;
+        padding: 0px 10px;
+        text-align: center;
+    }
+    .pull-right{
+        width: 100px;
+        color: #FFF;
+        background: #f45051;
+        font-size: 0.875rem;
+        &:before{
+            content:"结算";
+        };
+        &:active{
+            background-color:#980102;
+            transition: all .1s;
+        };
+    }
+    .total-money{
+        display: inline-block;
+        float: left;
+        height: 44px;
+        padding-left: 10px;
+        font {
+            display: block;
+            height: 22px;
+            line-height: 2.5;
+            color: #F00;
+            font-size: 12px;
+            overflow: hidden;
+        }
+        em{
+            display: block;
+            height: 22px;
+            line-height: 1.5;
+            clear: both;
+            font-style: normal;
+            overflow: hidden;
+            color: #808281;
+            i{
+                font-style: normal;
+                
+            }
+        }
+    }
+}
+/*订单确认工具条*/
+#confirm_order_bar{
+    .pull-right{
+        &:before{
+            content:"支付";
+        };
+    }
+    .total-money{
+        em{
+            span{
+                width: 22px;
+                height: 22px;
+                background: url('../assets/icon_time.png') center center no-repeat;
+                background-size: 80%;
+                display: block;
+                float: left;
+            }
+            i{
+                display: block;
+                float: left;
+                height: 22px;
+                line-height: 22px;
+            }
+        }
+    }
+}
+/*用户评论工具条*/
+#user_pinglun_bar{
+    display: none;
+    input{
+        width: 15rem;
+        height: 29px;
+        border-radius: 5px;
+        margin-left: 5px;
+        margin-top: 7px;
+        float: left;
+    }
+    button{
+        width: 3.4rem;
+        color: #23B8C0;
+        font-size: 1rem;
+        border:none;
+        background: none;
+        outline: none;
+        text-align: center;
+        line-height: 44px;
+    }
+}
+#news-xin-pinglun{
+    display: none;
+    a{
+        text-align: center;
+        color: #999;
+        font-size: 0.75rem;
+        line-height: 3.8;
+        height: 40px;
+        margin-top: 2px;
+        transition: all 0.2s;
+        span:nth-child(2){
+            position:relative;
+            top: -4px;
+            left: -1px;
+        };
+    }
+    .xin-a{
+        width: 49.8%;
+        border-right: 1px solid #D0CDCD;
+        background: url('../assets/xin_icon.png') center 2px no-repeat;
+        background-size: 16%;
+        &.active{
+            background: url('../assets/xin_red_icon.png') center 2px no-repeat;
+            background-size: 16%;
+        }
+    }
+    .ping-a{
+        width: 50%;
+        background: url('../assets/ping_lun_icon.png') center 2px no-repeat;
+        background-size: 16%;
+    }
+}
+#zc-reslut-bar-btn{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    display: none;
+    a{
+        width: 50%;
+        height: 44px;
+        line-height: 44px;
+        padding: 0px;
+        text-align: center;
+        font-size: 1rem;
+        &:nth-child(1){
+            background:#F74343;
+            color: #FFF;
+        } 
+        &:nth-child(2){
+            color: #23B8C0;
+        }
+    }
+}
+body,html{
+    height:100%;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ul,li,dl,dt,dd,ol{
+    list-style: none;
+}
+body{
+    background: #ECECEC;
+    font-family:"MicrosoftYaHei" ;
+    .content{
+        background: #ECECEC;
+    }
+}
+center.no-data-tip{
+    line-height: 100px;
+    font-size: 0.875rem;
+    background: #FFF;
+    color: #999;
+}
+/*重写轮播图样式*/
+.swiper-container{
+    background: #FFF !important;
+}
+/*售完样式*/
+.short-supply-over{
+    background: url('../assets/sw.png') 70% 15% no-repeat;
+    background-size: 80px;
+}
+/*TOAST 提示*/
+.toast-tip-box_{
+    display: inline-block;
+    width: 0px;
+    min-height: 80px;
+    background: #000;
+    position: absolute;
+    overflow: hidden;
+    opacity: 0;
+    color: #FFF;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 0;
+    bottom: 0px;
+    left: 50%;
+    padding: 1rem;
+    border-radius: 6px;
+    z-index: 99999;
+}
+/** 重写bar样式 */
+.bar{
+    z-index: 999 !important;
+}
+/** 内容模糊特效 */
+.content-blur-filter {
+    -webkit-filter: blur(1px);
+    -moz-filter: blur(1px);
+    -o-filter: blur(1px);
+    -ms-filter: blur(1px);
+    filter: blur(1px);
+    /* 页面没有加载完让内容不可见 */
+    /*margin-top:2000px;*/
+}
+/**两个方块切换加载动画*/
+.loading-spinner-cubemove{
+    margin: 100px auto;
+    width: 22px;
+    height: 22px;
+    position: relative;
+    left: -8px;
+    .cube1,.cube2{
+      background-color: #67CF22;
+      width: 20px;
+      height: 20px;
+      border-radius: 10px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      -webkit-animation: cubemove 1.8s infinite ease-in-out;
+      animation: cubemove 1.8s infinite ease-in-out;
+    }
+    .cube1{
+        background-color: #23B8C0;
+    }
+    .cube2 {
+        background-color: #FFE300;
+      -webkit-animation-delay: -0.9s;
+      animation-delay: -0.9s;
+    }
+     
+    @-webkit-keyframes cubemove {
+      25% { -webkit-transform: translateX(22px) rotate(-90deg) scale(0.5) }
+      50% { -webkit-transform: translateX(22px) translateY(22px) rotate(-180deg) }
+      75% { -webkit-transform: translateX(0px) translateY(22px) rotate(-270deg) scale(0.5) }
+      100% { -webkit-transform: rotate(-360deg) }
+    }
+     
+    @keyframes cubemove {
+      25% {
+        transform: translateX(22px) rotate(-90deg) scale(0.5);
+        -webkit-transform: translateX(22px) rotate(-90deg) scale(0.5);
+      } 50% {
+        transform: translateX(22px) translateY(22px) rotate(-179deg);
+        -webkit-transform: translateX(22px) translateY(22px) rotate(-179deg);
+      } 50.1% {
+        transform: translateX(22px) translateY(22px) rotate(-180deg);
+        -webkit-transform: translateX(22px) translateY(22px) rotate(-180deg);
+      } 75% {
+        transform: translateX(0px) translateY(22px) rotate(-270deg) scale(0.5);
+        -webkit-transform: translateX(0px) translateY(22px) rotate(-270deg) scale(0.5);
+      } 100% {
+        transform: rotate(-360deg);
+        -webkit-transform: rotate(-360deg);
+      }
+    }
+}
+/** 页面转换加载提示 */
+/** 提示样式一 三个圈。。。 */
+.loading-spinner-point{
+    margin: 6.25rem auto 0;
+    width: 9.375rem;
+    text-align: center;
+    div {
+      width: 1.875rem;
+      height: 1.875rem;
+      /*background-color: rgba(0,0,0,.6);*/
+      background-color: #23B8C0;
+     
+      border-radius: 100%;
+      display: inline-block;
+      -webkit-animation: bouncedelay 1.4s infinite ease-in-out;
+      animation: bouncedelay 1.4s infinite ease-in-out;
+      -webkit-animation-fill-mode: both;
+      animation-fill-mode: both;
+    }
+     
+    .bounce1 {
+      -webkit-animation-delay: -0.32s;
+      animation-delay: -0.32s;
+    }
+     
+    .bounce2 {
+      -webkit-animation-delay: -0.16s;
+      animation-delay: -0.16s;
+    }
+     
+    @-webkit-keyframes bouncedelay {
+      0%, 80%, 100% { -webkit-transform: scale(0.0) }
+      40% { -webkit-transform: scale(1.0) }
+    }
+     
+    @keyframes bouncedelay {
+      0%, 80%, 100% { 
+        transform: scale(0.0);
+        -webkit-transform: scale(0.0);
+      } 40% { 
+        transform: scale(1.0);
+        -webkit-transform: scale(1.0);
+      }
+    }
+}
+/** 方块样式 */
+.loading-spinner{
+  width: 3.75rem;
+  height: 3.75rem;
+  background-color: #1fbdc2;
+  margin:6.25rem auto;
+  -webkit-animation: rotateplane 1.2s infinite ease-in-out;
+  animation: rotateplane 1.2s infinite ease-in-out;
+  /**动画*/
+    @-webkit-keyframes rotateplane {
+      0% { -webkit-transform: perspective(120px) }
+      50% { -webkit-transform: perspective(120px) rotateY(180deg) }
+      100% { -webkit-transform: perspective(120px) rotateY(180deg)  rotateX(180deg) }
+    }
+     
+    @keyframes rotateplane {
+      0% { 
+        transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+        -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg) 
+      } 50% { 
+        transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+        -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg) 
+      } 100% { 
+        transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+        -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+      }
+    }
+}

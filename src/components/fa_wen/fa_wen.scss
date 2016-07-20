@@ -1,0 +1,77 @@
+.fa-wen-page-header{
+    .pull-right{
+        color: #23b8c0;
+    }
+}
+.fa-wen-page-body{
+    #myModalexample{
+        margin-left: -100%;
+        &.active{
+            margin-left: 0!important;
+        }
+        .bar{
+            position: relative;
+            box-shadow:none;
+            .icon-close{
+                position: absolute;
+                z-index: 99999;
+                right: 10px;
+                top: 0px;
+            }
+            .title{
+                height: 44px;
+            }
+        }
+        input{
+            width: 90%;
+            position: absolute;
+            top: 0px;
+            left: 10px;
+            padding: 0px;
+            margin: 0px;
+            border: none;
+            height: 34px;
+            line-height: 34px;
+            margin-top: 5px;
+            z-index: 9999;
+            background: none;
+            font-size: 0.875rem;
+            font-weight: normal;
+        }
+        .content{
+            top: 0px;
+            padding-top: 0px;
+            position: relative;
+        }
+    }
+    .f-title{
+        width: 100%;
+        height: 2rem;
+        line-height: 3;
+        color: #23b8c0;
+        font-size: 0.75rem;
+        text-indent: 1rem;
+    }
+    .f-content{
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        clear: both;
+        textarea,
+        input{
+            width: 100%;
+            border: none;
+            margin-bottom: 0;
+            font-size: 0.75rem;
+            border-radius: 0px;
+            color: #666;
+        }
+    }
+    .table-view{
+        margin-top: 0.5rem;
+        background-image: none;
+        li{
+            color: #666;
+        }
+    }
+}

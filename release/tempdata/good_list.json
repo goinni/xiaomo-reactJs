@@ -1,0 +1,110 @@
+{
+    "status": 0,
+    "message": "success or faile msg",
+    "result":{
+        "currentPage":"1",
+        "pageSize":"10",
+        "totalItems":"100",
+        "datas":[{
+            "id": 1,
+            "name": "六味地黄丸",
+            "desc": "成功男人的秘决成功男人的秘决成功男人的秘决成功男人的秘决",
+            "imgUrl":"/assets/n1.jpg",
+            "nowPrice":"360.00",
+            "normalPrice":"588.00",
+            "likeCount":"200",
+            "commentCount":"877",
+            "url": "/pages/goodlist/goodlist.html"
+        },{
+            "id": 2,
+            "name": "马拉里拉玛卡",
+            "desc": "成功男人的秘决",
+            "imgUrl":"/assets/pimg_10.png",
+            "nowPrice":"360.00",
+            "normalPrice":"588.00",
+            "likeCount":"200",
+            "commentCount":"877",
+            "url": "/pages/news/news.html"
+        },{
+            "id": 3,
+            "name": "马拉里拉玛卡",
+            "desc": "成功男人的秘决",
+            "imgUrl":"/assets/pimg_11.png",
+            "nowPrice":"360.00",
+            "normalPrice":"588.00",
+            "likeCount":"200",
+            "commentCount":"877",
+            "url": "/pages/news/news.html"
+        },{
+            "id": 4,
+            "name": "马拉里拉玛卡",
+            "desc": "成功男人的秘决",
+            "imgUrl":"/assets/pimg_03.png",
+            "nowPrice":"360.00",
+            "normalPrice":"588.00",
+            "likeCount":"200",
+            "commentCount":"877",
+            "url": "/pages/news/news.html"
+        },{
+            "id": 11,
+            "name": "六味地黄丸",
+            "desc": "成功男人的秘决",
+            "imgUrl":"/assets/pimg_10.png",
+            "nowPrice":"360.00",
+            "normalPrice":"588.00",
+            "likeCount":"200",
+            "commentCount":"877",
+            "url": "http://www.baidu.com"
+        },{
+            "id": 12,
+            "name": "马拉里拉玛卡",
+            "desc": "成功男人的秘决",
+            "imgUrl":"/assets/pimg_11.png",
+            "nowPrice":"360.00",
+            "normalPrice":"588.00",
+            "likeCount":"200",
+            "commentCount":"877",
+            "url": "http://www.baidu.com"
+        },{
+            "id": 13,
+            "name": "马拉里拉玛卡",
+            "desc": "成功男人的秘决",
+            "imgUrl":"/assets/pimg_03.png",
+            "nowPrice":"360.00",
+            "normalPrice":"588.00",
+            "likeCount":"200",
+            "commentCount":"877",
+            "url": "http://www.baidu.com"
+        },{
+            "id": 14,
+            "name": "马拉里拉玛卡",
+            "desc": "成功男人的秘决",
+            "imgUrl":"/assets/pimg_10.png",
+            "nowPrice":"360.00",
+            "normalPrice":"588.00",
+            "likeCount":"200",
+            "commentCount":"877",
+            "url": "http://www.baidu.com"
+        },{
+            "id": 132,
+            "name": "马拉里拉玛卡",
+            "desc": "成功男人的秘决",
+            "imgUrl":"/assets/pimg_11.png",
+            "nowPrice":"360.00",
+            "normalPrice":"588.00",
+            "likeCount":"200",
+            "commentCount":"877",
+            "url": "http://www.baidu.com"
+        },{
+            "id": 142,
+            "name": "马拉里拉玛卡",
+            "desc": "成功男人的秘决",
+            "imgUrl":"/assets/pimg_03.png",
+            "nowPrice":"360.00",
+            "normalPrice":"588.00",
+            "likeCount":"200",
+            "commentCount":"877",
+            "url": "http://www.baidu.com"
+        }]
+    }
+}

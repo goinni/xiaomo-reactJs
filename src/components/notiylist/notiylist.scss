@@ -1,0 +1,44 @@
+.notiy-list-page-header{}
+.notiy-list-page-body{
+    .notify-list{
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        center{
+            font-size: 1rem;
+            color: #666;
+            background: #FFF;
+            padding: 4rem 0;
+        }
+        li{
+            width: 100%;
+            height: auto;
+            overflow: hidden;
+            margin-bottom: 0.5rem;
+            background: #FFF;
+            &.active{
+                div{
+                    color: #333;
+                }
+            }
+            .time{
+                width: 90%;
+                height: 2.3rem;
+                line-height: 3;
+                color: #999;
+                font-size: 0.875rem;
+                margin: 0 auto;
+            }
+            .text{
+                width: 90%;
+                height: auto;
+                overflow: hidden;
+                margin: 0 auto;
+                line-height: 1.5;
+                font-size: 0.875rem;
+                margin: 0 auto 0.625rem;
+                color: #666;
+            }
+        }
+    }
+}

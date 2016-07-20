@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="utf-8">
+    <title>小陌优品</title>
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta http-equiv="Access-Control-Allow-Origin" content="*">
+    <!-- 将html放入app中要加上 [ ../.. ] ，如果放到服务器上去掉 [ ../.. ] 即可-->
+    <link rel="stylesheet" href="/css/app.min.css?v=1461324587577">
+  </head>
+  <body class="no-top-bar no-footer-bar">
+    <header class="bar bar-nav" id="page-header-part"></header>
+    <div class="content home-new-page-body" id="page-content-part" data-component="HomeNewPage"></div>
+    <!-- 四大菜单 -->
+    <nav class="bar bar-tab" id="footer-menubar-part">
+          <a class="tab-item" href="/pages/home_new/home_new.html">
+            <span class="icon icon-home"></span>
+            <span class="tab-label">商城</span>
+          </a>
+          <a class="tab-item" href="/pages/news_home/news_home.html">
+            <span class="icon icon-list"></span>
+            <span class="tab-label">资讯</span>
+          </a>
+          <a class="tab-item" href="/pages/community_myframe/community_myframe.html">
+            <span class="icon icon-star-filled"></span>
+            <span class="tab-label">社区</span>
+          </a>
+          <a class="tab-item" href="/pages/personal/personal.html">
+            <span class="icon icon-person"></span>
+            <span class="tab-label">个人</span>
+          </a>
+    </nav>
+    <!-- 购物车 -->
+    <div class="bar bar-standard bar-footer" id="buy_car_bar">
+      <a id="buycar_icon_btn_go" class="icon pull-left">
+        <span id="count_goods_buycar">0</span>
+      </a>
+      <a class="icon pull-right" id="add_good_buycar">&nbsp;</a>
+    </div>
+    <!-- 购物车清单 -->
+    <div class="bar bar-standard bar-footer" id="buy_car_info_bar">
+      <div class="total-money">
+            <font>应付：￥<b id="total_money_value">00.00</b></font>
+            <em>为您节省：<i id="total_savemoney_value">00.00</i></em>
+      </div>
+      <a class="icon pull-right" id="go_create_order_confirm_order"></a>
+    </div>
+    <!-- 购物车订单确认 -->
+    <div class="bar bar-standard bar-footer" id="confirm_order_bar">
+      <div class="total-money">
+            <font>总计：￥<b id="total_money_value2">0.00</b></font>
+            <em><span></span><i id="pay_timer_countdown">00:00:00</i></em>
+      </div>
+      <a id="go_pay_action_btn" class="icon pull-right"></a>
+    </div>
+    <!--资讯评论-->
+    <div id="news-xin-pinglun" class="bar bar-standard bar-footer">
+      <a class="icon pull-left xin-a">
+            <span class="icon xin"></span>
+            <span>0</span>
+      </a>
+      <a href="#" data-transition="slide-in" class="icon pull-right ping-a">
+            <span class="icon ping-lun"></span>
+            <span>0</span>
+      </a>
+    </div>
+    <!--自测结果-->
+    <div id="zc-reslut-bar-btn" class="bar bar-standard bar-footer">
+      <a class="icon pull-left">
+            重新检测
+      </a>
+      <a class="icon pull-right">
+            退出
+      </a>
+    </div>
+    <!--评论工具条-->
+    <div id="user_pinglun_bar" class="bar bar-standard bar-footer">
+      <input type="text"/>
+      <button>发送</button>
+    </div>
+    <!-- 将html放入app中要加上 [ ../.. ] ，如果放到服务器上去掉 [ ../.. ] 即可-->
+    <script src="/js/app.min.js?v=1461324587577"></script>
+    <script type="text/javascript">
+    // document.addEventListener('touchmove', appTool.preventDefault, false);
+        function pageRender(){
+            var prefix = $("#page-content-part").data('component');
+            //oc调用h5 获取用户登录信息
+            if(prefix != 'AddPinglunPage' && prefix != 'ConfirmOrderPage' && prefix != 'FaTeiPage' && prefix != 'FaWenPage' && prefix != 'OrderDetailPage' && prefix != 'PersonInfoPage'){
+                appTool.ocToH5callback = function(data){
+                    // 从app中获取缓存 的用户ID
+                    // alert("===2=>"+data);
+                    if(data){
+                        var temJson;
+                        try{
+                            temJson = JSON.parse(data);
+                            if(temJson.appCacheUserId){
+                                appTool.localSet("app_cache_login_userid", temJson.appCacheUserId);//缓存用户登录Id 
+                            }else{
+                                appTool.clearUserInfoEntity();
+                            }
+                        }catch(e){
+                            //不是json数据
+                        }
+                    }
+                }
+            }
+            //新页面时先删除吐司提示
+            $('.toast-tip-box_').empty().remove();
+            //删除【商品|资讯.帖子】导航条,在相应的页面会创建
+            $('.markdetail-chang-nav-title,.community-window-nav-title,.part-person-frame,.mine-like-three-nav').empty().remove();
+            //页面类型
+            var pagetype = appTool.queryUrlParam('pagetype');
+            if(pagetype!='iframe'){
+                //iframe页面不缓存
+                //缓存当前页面地址
+                appTool.pushHistoryLink();
+            }
+            //每个页面初始化时都先提示正在加载,待页面sendPageAjax请求完后关闭提示
+            appTool.pageLoading();
+            
+            setMenuActive(prefix);
+            //标题栏
+            ReactDOM.render(
+                React.createElement(window[prefix + 'Header'], null),
+                document.getElementById("page-header-part")
+            );
+            //内容
+            ReactDOM.render(
+                React.createElement(window[prefix + 'Body'], null),
+                document.getElementById('page-content-part')
+            );
+            
+        }
+        //设置底部菜单是否可用
+        function setMenuActive(prefix){
+            //重置相关bar的显示 
+            $('#zc-reslut-bar-btn,#footer-menubar-part,.icon-btn-push-goods,#footer-menubar-part,#buy_car_bar,#buy_car_info_bar,#confirm_order_bar,#news-xin-pinglun,#user_pinglun_bar').hide();
+            //底部菜单
+            if(prefix === 'HomePage' || prefix === 'HomeNewPage'){
+                    appTool.clearHistoryLink();//进入首页后清除历史 
+                    activeMenu(0);
+            }else if(prefix === 'NewsPage' || prefix === 'NewsHomePage'){
+                    activeMenu(1);
+            }else if(prefix === 'CommunityWindowPage'){
+                    activeMenu(2);
+            }else if(prefix === 'PersonalPage'){
+                    activeMenu(3);
+            }else{
+
+                if(prefix === 'GoodDetailPage'){
+                    $("#buy_car_bar").show();
+                }else if(prefix === 'BuycarPage'){
+                    $("#buy_car_info_bar").show();
+                }else if(prefix === 'ConfirmOrderPage' || prefix === 'OrderDetailPage'){
+                    $("#confirm_order_bar").show();
+                }else if(prefix === 'newsDetailPage' || prefix === 'CommunityShareItemPage'){
+                    $('#news-xin-pinglun').show();
+                    if(prefix === 'CommunityShareItemPage'){
+                        // $('#news-xin-pinglun .pull-right').attr('href','/pages/addpinglun/addpinglun.html');
+                    }
+                }else if(prefix === 'UserPinglunPage'){
+                    $('#user_pinglun_bar').show();
+                }else if (prefix === 'ZcResultPage'){
+                    $('#zc-reslut-bar-btn').show();
+                }
+            }
+            //底部菜单显示控制
+            function activeMenu(n){
+                $('#footer-menubar-part').show();
+                $('.icon-btn-push-goods').show();
+                $('#footer-menubar-part a').eq(n).addClass('active');
+            }
+        }
+        //初始化页面组件
+        pageRender();
+        //push回调
+        window.addEventListener('push', function (e) {
+            pageRender(); 
+        });
+    </script>
+  </body>
+</html>

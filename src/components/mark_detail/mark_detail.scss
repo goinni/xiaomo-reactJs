@@ -1,0 +1,70 @@
+.mark-detail-page-header{
+    
+}
+.mark-detail-page-body{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    top:44px;
+    .mark-detail-body{
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        .part-news-frame,
+        .part-good-frame{
+            width: 100%;
+            height: auto;
+            overflow: hidden;
+            display: none;
+            &.active{
+                display:block;
+            };
+            iframe{
+                width: 100%;
+                height: 100%;
+                margin: 0px;
+                padding: 0px;
+                border: none;
+            }
+        }
+    }
+}
+.markdetail-chang-nav-title{
+    width: 100%;
+    height: 44px;
+    padding-top: 0rem;
+    overflow: hidden;
+    background: #FFF;
+    position: fixed;
+    top: 64px;
+    left: 0px;
+    z-index: 99;
+    ul{
+        width: 90%;
+        height: auto;
+        overflow: hidden;
+        margin: 6px auto 0;
+        li{
+            width: 49.5%;
+            height: 32px;
+            line-height: 1.9;
+            text-align: center;
+            color: #23B8C0;
+            background: #FFF;
+            font-size: 14px;
+            transition: all 0.2s;
+            border: 1px solid #23B8C0;
+            float: left;
+            &:nth-child(1){
+                border-radius: 3px 0 0 3px;
+            };
+            &:nth-child(2){
+                border-radius: 0 3px 3px 0;
+            };
+            &.active{
+                color: #FFF;
+                background: #23B8C0;
+            }
+        }
+    }
+}

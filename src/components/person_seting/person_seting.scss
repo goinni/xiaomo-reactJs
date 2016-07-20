@@ -1,0 +1,23 @@
+.personseting-page-header{}
+.personseting-page-body{
+    .table-view{
+        margin-top: 0.5rem;
+        .table-view-cell{
+            color: #666;
+            background-position: 0 100%;
+        }
+    }
+    .zx-btn{
+        width: 80%;
+        height: 2rem;
+        border-radius: 1rem;
+        border:1px solid #C5C5C5;
+        color: #999;
+        text-align: center;
+        line-height: 2rem;
+        clear: both;
+        margin: 4rem auto 0;
+        display: block;
+    }
+    
+}

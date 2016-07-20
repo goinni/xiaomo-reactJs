@@ -1,0 +1,46 @@
+{
+    "status": 0,
+    "message": "success or faile msg",
+    "result":{
+        "currentPage":"1",
+        "pageSize":"10",
+        "totalItems":"3",
+        "datas":[{
+            "id": 1,
+            "name": "都市白领"
+        },{
+            "id": 2,
+            "name": "保护眼睛"
+        },{
+            "id": 3,
+            "name": "维生素C"
+        },{
+            "id": 4,
+            "name": "减肥"
+        },{
+            "id": 5,
+            "name": "骨质疏松"
+        },{
+            "id": 6,
+            "name": "抗氧化"
+        },{
+            "id": 7,
+            "name": "防衰老"
+        },{
+            "id": 8,
+            "name": "备孕"
+        },{
+            "id": 9,
+            "name": "美容祛斑"
+        },{
+            "id": 10,
+            "name": "缓解疲劳"
+        },{
+            "id": 11,
+            "name": "更年期"
+        },{
+            "id": 12,
+            "name": "钙"
+        }]
+    }
+}

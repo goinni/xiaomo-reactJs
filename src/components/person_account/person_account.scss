@@ -1,0 +1,20 @@
+.personaccount-page-header{}
+.personaccount-page-body{
+    .table-view{
+        margin-top: 0.5rem;
+        .table-view-cell{
+            position: relative;
+            color: #666;
+            background-position: 0 100%;
+            font{
+                position: absolute;
+                right: 2rem;
+                top: 14px;
+            }
+            .navigate-right:after, .push-right:after {
+                content: '';
+            }
+        }
+    }
+     
+}

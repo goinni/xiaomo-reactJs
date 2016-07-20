@@ -1,0 +1,188 @@
+.news-detail-page-header{
+
+}
+.news-detail-page-body{
+    .news-detail-body{
+        margin-bottom: 44px;
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+    .gust-news,
+    .top-banner{
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        position: relative;
+        img{
+            width: 100%;
+            display: block;
+        }
+        p{
+            position: absolute;
+            bottom: 0px;
+            left: 0px;
+            text-align: left;
+            text-indent: 12pt;
+            width: 100%;
+            display: block;
+            margin: 0px;
+            color: #FFF;
+            height: 2rem;
+            line-height: 2rem;
+            font-size: 0.875rem;
+            font-weight: normal;
+            opacity: 0.8;
+            background: -webkit-linear-gradient(rgba(0,0,0,0.03),rgba(0,0,0,0.7));
+        }
+        a{
+                position: absolute;
+                height: 100%;
+                width: 100%;
+                left: 0px;
+                top: 0px;
+            }
+    }
+    .coustom-content{
+        width: 100%;
+        padding: 0.5rem 5%;
+        margin: 0.5rem auto 0;
+        color: #666;
+        background: #FFF;
+        border-bottom: 1px solid #efefef;
+    }
+    .box-area{
+        clear: both;
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        border-bottom: 1px solid #efefef;
+        background: #FFF;
+    }
+    .g-xiang-like{
+        .g-m-ll{
+            background-color: #ff2387;
+        }
+    }
+    .g-gust-like{
+        .g-m-ll{
+            background-color: #828181;
+        }
+    }
+    .g-ping-box{
+        .g-m-ll{
+            width: 0.3125rem;
+            float: left;
+            height: auto;
+            overflow: hidden;
+            font-size: 1px;
+            line-height: 2rem;
+        }
+        .tex{
+            float: left;
+            color: #2c2c2c;
+            font-size: 0.875rem;
+            display: inline;
+            line-height: 2rem;
+            text-indent: 0.3125rem;
+        }
+    }
+    .tu-jian-news{
+        background: #FFF;
+        border-bottom: 1px solid #efefef;
+        margin-bottom: 0.5rem;
+        img{
+            width: 90%;
+            margin: 0 auto;
+            display: block;
+            height: auto;
+            overflow: hidden;
+        }
+        .news-price{
+            width: 100%;
+            border-top: 1px solid #efefef;
+            height: auto;
+            overflow: hidden;
+            position: relative;
+            border-bottom: 1px solid #efefef;
+            .red-price{
+                width: 100%;
+                height: 1.2rem;
+                line-height: 1.5rem;
+                clear: both;
+                color: #F00;
+                font-size: 0.875rem;
+                text-indent: 12pt;
+                font-weight: bold;
+            }
+            .hot-people{
+                width: 100%;
+                height: 1.2rem;
+                line-height: 1rem;
+                color: #888;
+                text-indent: 12pt;
+                font-size: 0.75rem;
+            }
+            a{
+                display: inline-block;
+                color: #DA0909;
+                padding: 0 0.5rem;
+                height: 1.8rem;
+                border-radius: 0.9rem;
+                line-height: 1.8rem;
+                background: #f0f0f0;
+                position: absolute;
+                right: 0.5rem;
+                top: 0.32rem;
+            }
+        }
+    }
+    .gust-list{
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        clear: both;
+        .gust-news{
+            border-radius: 5px;
+            width: 98%;
+            overflow: hidden;
+            position: relative;
+            margin: 0.2rem auto 0;
+            img{
+                display: block;
+                width: 100%;
+            }
+            p{
+                background: -webkit-linear-gradient(rgba(0,0,0,0.03),rgba(0,0,0,0.6));
+            }
+            a{
+                position: absolute;
+                height: 100%;
+                width: 100%;
+                left: 0px;
+                top: 0px;
+            }
+        }
+    }
+}
+.marks-part-area{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    li{
+        width: 25%;
+        height: 1.6rem;
+        overflow: hidden;
+        text-align: center;
+        color: #666;
+        float: left;
+        line-height: 1.6rem;
+        font-size: 0.75rem;
+        border-radius: 0.8rem;
+        background: #FFF;
+        margin-top: 0.3rem;
+        a{
+            color: #666; 
+        }
+    }
+}

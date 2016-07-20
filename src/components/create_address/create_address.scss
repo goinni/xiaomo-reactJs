@@ -1,0 +1,85 @@
+.create-address-part{
+    
+    .o-row-line{
+        width: 100%;
+        overflow: hidden;
+        clear: both;
+        background: #FFF;
+        height: 2.75rem;
+        border-bottom: 1px solid #DCDCDC;
+        &.o-man-id{
+            margin-top: 1rem;
+        }
+        &.o-save-btn{
+            margin-top: 0.875rem;
+        }
+        &.o-save-btn2{
+            margin-top: 0.875rem;
+            margin-bottom: 54px;
+            button.btn-positive{
+                color: #999;
+                background-color: #FFF;
+                border: 1px solid #DCDCDC;
+            }
+        }
+        button.btn-positive{
+            width: 90%;
+            margin: 0 auto;
+            line-height: 2rem;
+            border-radius: 1rem;
+            text-align: center;
+            color: #fff;
+            background-color: #23B8c0;
+            padding: 0px;
+            outline: none;
+            margin-top: 0.28rem;
+            font-size: 1rem;
+            border: 1px solid #23B8c0;
+        }
+        div{
+            display:inline-block;
+            float: left;
+            font-size: 0.875rem;
+            line-height: 2.75rem;
+            height: 2.75rem;
+            overflow: hidden;
+        }
+        div:nth-child(1){
+            margin-left: 0.9375rem;
+            color: #797979;
+        }
+        div:nth-child(2){
+            margin-left: 0.75rem;
+            &.o-detail{
+                width: 13rem;
+            }
+            input{
+                color: #666;
+                margin: 0px;
+                padding: 0px;
+                height: 1rem;
+                line-height: 1rem;
+                font-size: 0.875rem;
+                border: none;
+            }
+            select{
+                width: 11.5rem;
+                border: none;
+                background: none;
+                box-shadow:none;
+                option{
+                    font-size: 0.875rem;
+                    color: #666;
+                }
+            }
+            em{
+               width: 11.5rem;
+               display: inline-block; 
+            }
+            .icon{
+                color: #797979;
+                font-size: 0.875rem;
+            }
+        }
+    }
+}

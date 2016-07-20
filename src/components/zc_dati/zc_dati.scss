@@ -1,0 +1,66 @@
+.zc-dati-page-header{}
+.zc-dati-page-body{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    .banner{
+        width: 100%;
+        max-height: 12.4375rem;
+        overflow: hidden;
+        background: #FFF;
+        img{
+            width: 100%;
+            border: none;
+            margin: 0px;
+            padding: 0px;
+           
+        }
+    }
+    .marks-part-area{
+        
+        /*padding-bottom: 0.5rem;*/
+        /*margin-bottom: 1rem;*/
+        li,a{
+            color: #060606;
+        }
+        li{
+            background: #f8f8f8;
+        }
+        li.active{
+            background: #d6f2f3;
+        }
+    }
+    .tip-tex{
+        width: 100%;
+        padding: 0.625rem ;
+        margin-top: 0.625rem;
+        height: auto;
+        overflow: hidden;
+        font-size: 0.875rem;
+        color: #666;
+        background: #fff;
+        position: relative;
+        div{
+            position: absolute;
+            width: 5px;
+            overflow: hidden;
+            background: #666;
+            height: 100%;
+            left: 0px;
+            top: 0px;
+        }
+        font{
+            font-size: 0.75rem;
+            color: #23B8C0;
+        }
+    }
+    .btn-negative{
+        width: 80%;
+        height: 44px;
+        line-height: 44px;
+        overflow: hidden;
+        border-radius: 22px;
+        margin: 1rem auto;
+        padding: 0px;
+    }
+}

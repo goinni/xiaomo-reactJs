@@ -1,0 +1,73 @@
+{
+    "status": 0,
+    "message": "success or faile msg",
+    "result":{
+        "currentPage":"1",
+        "pageSize":"10",
+        "totalItems":"3",
+        "datas":[{
+            "content":"成一家之言，其成书风格深刻地反映出作者对中共党史的邃造诣和敏锐眼光",
+            "title":"为什么十年之力，成一家之言，其成书风格",
+            "imgurl":"../../assets/tx2.jpg",
+            "sortid":1,
+            "bbsSort":null,
+            "postid":"310DB57E90974B37919C0C124B324881",
+            "userid":"7EDA0591165E4E018396F079114B2001",
+            "labels":null,
+            "delflag":0,
+            "addtime":"2016-01-20 16:26",
+            "viewnum":null,
+            "likenum":null,
+            "commnum":null,
+            "sharenum":null,
+            "comments":[],
+            "topflag":0,
+            "essence":0
+        },{
+            "content":"哈哈哈，这是内容，漂亮不",
+            "title":"美女欣赏",
+            "imgurl":"../../assets/tx1.jpg",
+            "sortid":1,
+            "postid":"EE10839763AA45BDB92F44827E8F3572",
+            "userid":"7EDA0591165E4E018396F079114B2001",
+            "labels":"美女",
+            "delflag":0,
+            "addtime":"2016-01-20 13:37",
+            "viewnum":1000,
+            "likenum":789,
+            "commnum":10,
+            "sharenum":0,
+            "comments":[{
+                            "content":"456",
+                            "user":{"name":"小陌","faceimg":"../../assets/tx2.jpg"},
+                            "postid":"EE10839763AA45BDB92F44827E8F3572",
+                            "userid":"7EDA0591165E4E018396F079114B2001",
+                            "comtid":"A94C6139DBA54B4793C90D171E2C6DDF",
+                            "etype":1,
+                            "delflag":0,
+                            "replyid":"7EDA0591165E4E018396F079114B2001",
+                            "addtime":"2016-01-20 17:03:23",
+                            "bigno":2,
+                            "smlno":0,
+                            "dianzannum":null,
+                            "replyer":{"name":"小陌","faceimg":"../../assets/tx2.jpg"}
+                        },{
+                            "content":"的确很漂亮的",
+                            "user":{"name":"小陌","faceimg":"../../assets/tx1.jpg"},
+                            "postid":"EE10839763AA45BDB92F44827E8F3572",
+                            "userid":"7EDA0591165E4E018396F079114B2001",
+                            "comtid":"1",
+                            "etype":1,
+                            "delflag":0,
+                            "replyid":null,
+                            "addtime":"2016-01-20 14:20:20",
+                            "bigno":1,
+                            "smlno":1,
+                            "dianzannum":null,
+                            "replyer":null
+                        }],
+            "topflag":0,
+            "essence":0
+        }]
+    }
+}

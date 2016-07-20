@@ -1,0 +1,111 @@
+.myorder-page-header{
+    
+}
+.my-order-page-body{
+    .my-order-body{
+        min-height: 400px;
+        .order-list-data{
+            width: 100%;
+            height: auto;
+            overflow: hidden;
+            
+            li{
+                width: 100%;
+                height: auto;
+                display: block;
+                margin: 0 auto 0.5rem;
+                overflow: hidden;
+                background: #FFF;
+                .status{
+                    width: 100%;
+                    height: 2rem;
+                    line-height: 2rem;
+                    overflow: hidden;
+                    border-bottom: 1px solid #f0f0f0;
+                    .left{
+                        float: left;
+                        color: #707070;
+                        padding-left: 0.5rem;
+                    }
+                    .right{
+                        float: right;
+                        color: #434343;
+                        padding-right: 0.5rem;
+                    }
+                }
+                .info{
+                    width: 100%;
+                    height: auto;
+                    clear: both;
+                    overflow: hidden;
+                    padding: 0.5rem 0;
+                    position: relative;
+                    .img-box{
+                        width: 4.5rem;
+                        height: 4.5rem;
+                        margin: 0 0.55rem 0 0.5525rem;
+                        overflow: hidden;
+                        float: left;
+                        img{
+                            width: 100%;
+                        }
+                    }
+                    .right{
+                        width: 14rem;
+                        height: auto;
+                        overflow: hidden;
+                        float: left;
+                        .tex{
+                            width: 100%;
+                            height: 3.125rem;
+                            clear: both;
+                            overflow: hidden;
+                            line-height: 1.4;
+                            color: #323C3F;
+                            text-overflow: ellipsis;
+                            display: -webkit-box;
+                            -webkit-line-clamp: 3;
+                            -webkit-box-orient: vertical;
+                        }
+                        .hdl{
+                            width: 100%;
+                            clear: both;
+                            height: auto;
+                            overflow: hidden;
+                            b{
+                                float: left;
+                                display: inline-block;
+                                color: #FF3824;
+                                font-size: 0.85rem;
+                                padding-right: 1rem;
+                            }
+                            .del{
+                                float: right;
+                                color: #666;
+                                display: inline-block;
+                                margin-right: 0.75rem;
+                                span{
+                                    font-size: 0.9rem;
+                                }
+                            }
+                        }
+                    }
+
+                }
+                .pay-text{
+                    width: 100%;
+                    height: 2rem;
+                    line-height: 2rem;
+                    border-top: 1px solid #f0f0f0;
+                    span{
+                        color: #999;
+                        padding-left: 0.5rem;
+                    }
+                    font{
+                        color: #F00;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,101 @@
+{
+"result":
+    {
+        "userid":"7EDA0591165E4E018396F079114B2001",
+        "delflag":0,
+        "pageSize":10,"totalPage":1,"currentPage":1,"previousPage":1,"nextPage":1,"topPage":1,"bottomPage":1,"totalItems":1,
+        "datas":
+            [
+                {
+                    "state":0, 
+                    "total":1260.0, 
+                    "parentid":"1603041413001", 
+                    "brokerage":100.0,                                    
+                    "addtime":"2016-03-04 14:13:17",                      
+                    "payprice":600.0,                                       
+                    "ordrid":"1603041413001-01",                           
+                    "details": 
+                        [
+                            {
+                                "name":"六味地黄丸",                   
+                                "id":"9E3F95EFCA384FB38BAE4840AEA7FB4A", 
+                                "state":0,                 
+                                "remark":null,
+                                "brokerage":80.0,                      
+                                "ptype":1,                   
+                                "cypercentage":0.2,                     
+                                "vefifycode":null,                      
+                                "vmGoods":null,     
+                                "addtime":"2016-03-04 14:13:17",       
+                                "mepdid":"0A2F751D961643AA8889851DA94542B6",
+                                "buyqty":2,                            
+                                "price":200.0,                       
+                                "subtotal":400.0,                    
+                                "payprice":400.0,                    
+                                "ordrid":null, 
+                                "usestate":0,                 
+                                "brokid":null,
+                                "guoQiShiJian":null                       
+                            }
+                        ]
+             },{
+                    "state":0, 
+                    "total":1260.0, 
+                    "parentid":"1603041413011", 
+                    "brokerage":100.0,                                    
+                    "addtime":"2016-03-04 14:13:17",                      
+                    "payprice":600.0,                                       
+                    "ordrid":"1603041413011-01",                           
+                    "details": 
+                        [
+                            {
+                                "name":"六味地黄丸",                   
+                                "id":"9E3F95EFCA384FB38BAE4840AEA7FB4A1", 
+                                "state":0,                 
+                                "remark":null,
+                                "brokerage":80.0,                      
+                                "ptype":1,                   
+                                "cypercentage":0.2,                     
+                                "vefifycode":null,                      
+                                "vmGoods":null,     
+                                "addtime":"2016-03-04 14:13:17",       
+                                "mepdid":"0A2F751D961643AA8889851DA94542B61",
+                                "buyqty":2,                            
+                                "price":200.0,                       
+                                "subtotal":400.0,                    
+                                "payprice":400.0,                    
+                                "ordrid":null, 
+                                "usestate":0,                 
+                                "brokid":null,
+                                "guoQiShiJian":null                       
+                            },{
+                                "name":"六味地黄丸2",                   
+                                "id":"9E3F95EFCA384FB38BAE4840AEA7FB4A2", 
+                                "state":0,                 
+                                "remark":null,
+                                "brokerage":80.0,                      
+                                "ptype":1,                   
+                                "cypercentage":0.2,                     
+                                "vefifycode":null,                      
+                                "vmGoods":null,     
+                                "addtime":"2016-03-04 14:13:17",       
+                                "mepdid":"0A2F751D961643AA8889851DA94542B62",
+                                "buyqty":2,                            
+                                "price":200.0,                       
+                                "subtotal":400.0,                    
+                                "payprice":400.0,                    
+                                "ordrid":null, 
+                                "usestate":0,                 
+                                "brokid":null,
+                                "guoQiShiJian":null                       
+                            }
+                        ]
+             }
+         ],
+    "startRow":0,
+    "endRow":1,
+    "splitPage":true
+},
+"status":0,
+"message":"请求成功_成功找到数据"
+}

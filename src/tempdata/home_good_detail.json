@@ -1,0 +1,59 @@
+{
+    "status":  0,
+    "message": "商品详情接口",
+    "result":{
+                "name":"六味地黄丸",
+                "id":"4B156BB75FD8465CBD226C51AF261A07",
+                "imgurl":"",
+                "labels":"睡眠不足,职业女性,按摩",
+                "summary":"作者毕十年之力，成一家之言，其成书风格深刻地反映出作者对中共党史的深邃造诣和敏锐眼光。 高华教授在本书付印之前，已在香港中文大学《二十一世纪》上发表有关1949年后中共研究",
+                "memo":"图文混排作者毕十年之力，成一家之言，其成书风格深刻地反映出作者对中共党史的深邃造诣和敏锐眼光。 高华教授在本书付印之前，已在香港中文大学《二十一世纪》上发表有关1949年后中共研究",
+                "imgurl2":null,
+                "likenum": "12",
+                "brndid":2,
+                "mcntid":2,
+                "m_name":"皇朝",
+                "b_name":"耐克",
+                "b_remark": "这里的图标是啥？品牌定的是没有图标。国家有图标.安利的介绍作者毕十年之力，成一家之言，其成书风格深刻地反映出作者对中共党史的深邃造诣和敏锐眼光。高华教授在本书付印之前，已在香港中文大学",
+                "pno":"f3",
+                "psiid":"ACC2537FD66042B7A9CD969C548C01FC",
+                "ptype":1,
+                "cypercentage":0.1,
+                "elename":"绿藻头",
+                "promprice":399.0,
+                "saleprice":688.0,
+                "refeprice":988.0,
+                "shortsupply":1,
+                "availableqty":1000,
+                "salestate":1,
+                "p_sortname1":"服务类",
+                "p_sortname2":"服务b",
+                "p_sortname3":"小活",
+                "p_sortname4":"100",
+                "prominfo":"促销信息",
+                "limitqty":0,
+                "prodPics":[{
+                            "id":"1",
+                            "imgurl":"/assets/b4.jpg",
+                            "servid":"ACC2537FD66042B7A9CD969C548C01FC"
+                        },{
+                            "id":"2",
+                            "imgurl":"/assets/b2.jpg",
+                            "servid":"ACC2537FD66042B7A9CD969C548C01FC"
+                        }],
+                "insuPics":[],
+                "servPics": [
+                        {
+                            "id":"1",
+                            "imgurl":"123.jpg",
+                            "servid":"ACC2537FD66042B7A9CD969C548C01FC"
+                        },
+                        {
+                            "id":"2",
+                            "imgurl":"234.jpg",
+                            "servid":"ACC2537FD66042B7A9CD969C548C01FC"
+                        }
+                    ]
+                    
+            }
+}

@@ -1,0 +1,90 @@
+{
+        "result":
+            {
+                "userid":"7EDA0591165E4E018396F079114B2001",
+                "pageSize":10,"totalPage":1,"currentPage":1,"previousPage":1,"nextPage":1,"topPage":1,"bottomPage":1,"totalItems":2, 
+                "datas":[
+                    {
+                        "id":"1",
+                        "userid":"7EDA0591165E4E018396F079114B2001",
+                        "vmGoods":{
+                            "name":"服务4",
+                            "id":"3C043ABC93E64D83BB1D17589C158403",
+                            "imgurl":"/assets/pimg_03.png",
+                            "labels":"小活,大活,按摩",
+                            "imgurl2":null,
+                            "brndid":2,
+                            "mcntid":2,
+                            "m_name":"皇朝",
+                            "b_name":"耐克",
+                            "pno":"f4",
+                            "psiid": "C97E943394084938A469DA4DFB64E6F4",
+                            "ptype":2,
+                            "cypercentage":0.1,
+                            "elename":"",
+                            "promprice":6.0,
+                            "saleprice":6.0,
+                            "refeprice":6.0,
+                            "shortsupply":0,
+                            "availableqty":1000,
+                            "salestate":1,
+                            "limitqty":0
+                        },
+                        "addtime":"2016-02-25 07:18:00",
+                        "mepdid":"3C043ABC93E64D83BB1D17589C158403",
+                        "buyqty":2
+                },
+                {
+                    "id":"2",
+                    "userid":"7EDA0591165E4E018396F079114B2001",
+                    "vmGoods":{
+                        "name":"服务3",
+                        "id":"4B156BB75FD8465CBD226C51AF261A07",
+                        "imgurl":"/assets/pimg_10.png",
+                        "labels":"小活,大活,按摩",
+                        "imgurl2":null,
+                        "brndid":2,
+                        "mcntid":2,
+                        "m_name":"皇朝",
+                        "b_name":"耐克",
+                        "pno":"f3",
+                        "psiid":"4B156BB75FD8465CBD226C51AF261A07",
+                        "ptype":2,
+                        "cypercentage":0.1,
+                        "elename":"绿藻头",
+                        "promprice":7.0,
+                        "saleprice":7.0,
+                        "refeprice":7.0,
+                        "shortsupply":1,
+                        "availableqty":1000,
+                        "salestate":1,
+                        "limitqty":0
+                    },
+                    "addtime":"2016-02-25 07:18:00",
+                    "mepdid":"4B156BB75FD8465CBD226C51AF261A07",
+                    "buyqty":3
+                }
+            ],
+            "startRow":0,
+            "endRow":2,
+            "splitPage":true
+        },
+        "cart":{
+            "items":[
+                    {"id":"1","userid":"7EDA0591165E4E018396F079114B2001",
+                      "vmGoods":{"name":"服务4","id":"3C043ABC93E64D83BB1D17589C158403","imgurl":"","labels":"小活,大活,按摩","imgurl2":null,"brndid":2,"mcntid":2,"m_name":"皇朝","b_name":"耐克","pno":"f4","psiid":"C97E943394084938A469DA4DFB64E6F4","ptype":2,"cypercentage":0.1,"elename":"","promprice":6.0,"saleprice":6.0,"refeprice":6.0,"shortsupply":0,"availableqty":1000,"limitqty":0},
+                      "addtime":"2016-02-25 07:18:00","mepdid":"3C043ABC93E64D83BB1D17589C158403","buyqty":2},
+                      
+                     {"id":"2","userid":"7EDA0591165E4E018396F079114B2001",
+                     "vmGoods":{"name":"服务3","id":"4B156BB75FD8465CBD226C51AF261A07","imgurl":"","labels":"小活,大活,按摩","imgurl2":null,"brndid":2,"mcntid":2,"m_name":"皇朝","b_name":"耐克","pno":"f3","psiid":"ACC2537FD66042B7A9CD969C548C01FC","ptype":2,"cypercentage":0.1,"elename":"绿藻头","promprice":7.0,"saleprice":7.0,"refeprice":7.0,"shortsupply":1,"availableqty":1000,"limitqty":0},
+                     "addtime":"2016-02-25 07:18:00","mepdid":"4B156BB75FD8465CBD226C51AF261A07","buyqty":3}
+                    ],
+            "totalSellPrice":33.0,
+            "totalRefeprice":33.0, 
+            "totalBrokprice":3.3000000000000003, 
+            "totalSavedPrice":0.0, 
+            "orderTotalPrice":33.0
+        },
+    "status":0,
+    "message":"请求成功_成功找到数据"
+}

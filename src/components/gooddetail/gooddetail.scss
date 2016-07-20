@@ -1,0 +1,349 @@
+.gooddetail-page-header{
+    
+}
+#count_goods_buycar{
+    display: none;
+    opacity: 1;
+}
+.gooddetail-page-body{
+    width: 100%;
+    height: auto;
+    /*overflow: hidden;*/
+    background-color: #FFF !important;
+    .good-detail-body{
+        position: relative;
+        height: auto;
+        overflow: hidden;
+        .goods-is-nobuy{
+            position: absolute;
+            top: 50px;
+            right: 50px;
+            width: 80px;
+            display: block;
+            z-index: 999;
+            display: none;
+        }
+    }
+    
+    .box-area{
+        clear: both;
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        border-bottom: 1px solid #efefef;
+    }
+    .b-price-info{
+        
+        b{
+            color: #F00;
+            font-size: 0.875rem;
+            display: inline-block;
+            margin: 0.625rem 0 0 0.625rem;
+        }
+        font{
+            color: #999;
+            font-size: 0.625rem;
+            margin: 0.625rem 0 0 0.625rem;
+            display: inline-block;
+            text-decoration:line-through;
+        }
+        button{
+            background: #f2f2f2;
+            color: #6a727f;
+            outline: none;
+            float: right;
+            margin: 0.5rem;
+            span:before {
+                content: '';
+            }
+            .icon_heart{
+                width: 12px;
+                height: 12px;
+                margin-left: 5px;
+                background: url('../assets/c4.png') center center no-repeat;
+                background-size: 100%;
+                &.active{
+                    background: url('../assets/c41.png') center center no-repeat;
+                    background-size: 100%;
+                }
+            }
+
+        }
+    }
+    .good-title{
+
+        h1{
+            width: 95%;
+            clear: both;
+            /*text-indent: 0.625rem;*/
+            font-size: 0.875rem;
+            margin: 0px;
+            padding: 0 0 0 0.625rem;
+            color: #2c2c2c;
+            line-height: 1.5;
+            overflow: hidden;
+            /*text-overflow: ellipsis;
+            white-space: nowrap;*/
+        }
+        .g-marks{
+            width: 95%;
+            height: auto;
+            overflow: hidden;
+            clear: both;
+            margin:0 auto 0.3125rem;
+            span{
+                background: #f2f2f2;
+                padding: 0px 5px;
+                color: #6a727f;
+                float: left;
+                margin: 0 10px 2px 0 ;
+                border-radius: 3px;
+            }
+        }
+    }
+    .g-desc{
+        padding: 0.625rem;
+        color: #686868;
+    }
+    .g-tip-promes{
+        ul{
+            width: 100%;
+            height: auto;
+            overflow: hidden;
+            clear: both;
+            li{
+                width: 25%;
+                height: 5.625rem;
+                float: left;
+                text-align: center;
+                overflow: hidden;
+                color: #828B96;
+                font-size: 0.75rem;
+                line-height: 11;
+                font-weight: bold;
+                font-family: "Microsoft YaHei";
+
+                &:nth-child(1){
+                    background: url('../assets/d1.png') center 30% no-repeat;
+                    background-size: 50%;
+                };
+                &:nth-child(2){
+                    background: url('../assets/d2.png') center 30% no-repeat;
+                    background-size: 50%;
+                };
+                &:nth-child(3){
+                    background: url('../assets/d3.png') center 30% no-repeat;
+                    background-size: 50%;
+                };
+                &:nth-child(4){
+                    background: url('../assets/d4.png') center 30% no-repeat;
+                    background-size: 50%;
+                };
+            }
+        }
+        /*img{
+            width: 90%;
+            margin: 0.625rem auto;
+            display:block;
+        }*/
+    }
+    .g-pinglun{
+        .g-m-ll{
+            background-color: #828c96;
+        }
+        .icon{
+            font-size: 1rem;
+            color: #bababa;
+            padding: 0.5rem 1rem;
+        }
+    }
+    .g-gust-like{
+        .g-m-ll{
+            background-color: #ff2387;
+        }
+    }
+    .g-ping-box{
+        .g-m-ll{
+            width: 0.3125rem;
+            float: left;
+            height: auto;
+            overflow: hidden;
+            font-size: 1px;
+            line-height: 2rem;
+        }
+        .tex{
+            float: left;
+            color: #2c2c2c;
+            font-size: 0.875rem;
+            display: inline;
+            line-height: 2rem;
+            text-indent: 0.3125rem;
+        }
+    }
+    
+    .gust-like-goods{
+        position: relative;
+        height: 10.5rem;
+        padding-top: 0.625rem;
+            li{
+                width: 5.625rem;
+                p{
+                    height: 40px;
+                    line-height: 20px;
+                    min-height: 2.0rem !important;
+                    text-align: center;
+                    overflow: hidden;
+                }
+            }
+    }
+    .usedes-text,
+    .pinpai-text{
+        transition: all .5s;
+        display: none;
+        .pinpai-title{
+            width: 90%;
+            margin-top: 0 auto;
+            overflow: hidden;
+            clear: both;
+            height: auto;
+            div.head-img{
+                width: 2.3125rem;
+                height: 2.3125rem;
+                border-radius: 1.15625rem;
+                overflow: hidden;
+                float: left;
+                background: #f0f0f0;
+                margin:0.34rem 0.75rem;
+                text-align: center;
+                line-height: 2.3125rem;
+                img{
+                    width: 100%;
+                    display: block;
+                    border: none;
+                }
+            }
+            div.name{
+                width: 14rem;
+                line-height: 2.3125rem;
+                margin:0.34rem 0;
+                color: #505050;
+                font-size: 0.875rem;
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+            }
+        }
+        div.desc{
+            width: 15rem;
+            margin-left: 3.3rem;
+            clear: both;
+            height: auto;
+            overflow: hidden;
+            color: #6f6f6f;
+        }
+    }
+    .bucong-text{
+        transition: all .5s;
+        display: none;
+        .bucong-title{
+            width: 95%;
+            clear: both;
+            margin: 0.625rem auto 0;
+            height: auto;
+            overflow: hidden;
+            .number{
+                width: 1rem;
+                height: 1rem;
+                border-radius: 0.75rem;
+                float: left;
+                background: #1eceff;
+                color: #FFF;
+                text-align: center;
+                line-height: 1rem;
+                font-size: 0.75rem;
+                margin: 0.3125rem;
+                &.two{
+                    background: #3ec1c8;
+                }
+                &.three{
+                    background: #ff509d;
+                }
+                &.four{
+                    background: #fe4668;
+                }
+                &.five{
+                    background: #f35050;
+                }
+            }
+            .x-title{
+                float: left;
+                display: inline;
+                color: #777777;
+                font-size: 0.875rem;
+                padding-top: 0.2125rem;
+            }
+        }
+        .desc{
+            width: 95%;
+            height: auto;
+            margin: 0 auto;
+            overflow: hidden;
+            clear: both;
+            line-height: 1.5;
+            color: #777777;
+        }
+    }
+    .bottom-padding{
+        height: 60px;
+        border-bottom: none;
+    }
+}
+.ping-lun-part{
+
+        .share-user-info-bb{
+            border-bottom: 1px solid #efefef;
+            margin-bottom: 0;
+            li{
+                border-bottom: none !important;
+            }
+            li:first-child{
+                b{
+                    font-weight: normal;
+                }
+            }
+            li:last-child{
+                overflow: hidden;
+                height: auto;
+                padding-bottom: 0.625rem;
+                font-size: 0.75rem;
+                a{
+                    color: #757575;
+                    margin: 0px;
+                    padding: 0 1rem 0 0;
+                    width: 16.5rem;
+                    float: right;
+                    -webkit-line-clamp: inherit;
+
+                }
+            }
+        }
+        .look-more-place{
+            width: 100%;
+            padding: 0.625rem 0;
+            height: auto;
+            overflow: hidden;
+            background: #ececec;
+            .look-more{
+                width: 80%;
+                outline: none;
+                border: none;
+                background: #FFF;
+                color: #23b8bf;
+                margin:0 auto;
+                height: 2rem;
+                padding: 0px;
+                line-height: 2rem;
+                font-size: 0.85rem;
+            }
+        }
+    }

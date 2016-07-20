@@ -1,0 +1,52 @@
+.pay-block-part{
+    .pay-block-area{
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        clear: both;
+        background-color: #FFF;
+        dt{
+            height: 2rem;
+            width: 100%;
+            line-height: 3.5;
+            color: #23B8c0;
+            padding:0 5%;
+            font-size: 0.75rem;
+            overflow: hidden;
+            background-color: #ECECEC;
+        }
+        dd{
+            width: 100%;
+            height: 2.75rem;
+            margin: 0 auto;
+            border-bottom: 1px solid #DCDCDC;
+            &:nth-child(3){
+                border-bottom:none;
+            };
+            div.pay-logo,div.pay-name,div.pay-btn{
+                float: left;
+                display: inline-block;
+                height: 2.75rem;
+            }
+            div.pay-logo{
+                padding: 0.4rem 0 0 5%;
+                img{
+                    width: 2rem;
+                }
+            }
+            div.pay-name{
+                width: 12.5rem;
+                line-height: 2.75rem;
+                text-indent: 12pt;
+                font-size: 1rem;
+                color: #666;
+            }
+            div.pay-btn{
+                width: 3.7rem;
+                height: 2.7rem;
+                padding-top: 0.45rem;
+            }
+        }
+    }
+}    
+    

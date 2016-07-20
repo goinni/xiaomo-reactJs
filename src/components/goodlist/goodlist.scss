@@ -1,0 +1,99 @@
+.goodlist-page-header{
+    
+}
+.goodlist-page-body{
+    .goodlist-body{
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        padding-top: 0.625rem;
+        .column-list-split{
+            width: 50%;
+            float: left;
+            overflow: hidden;
+            height: auto;
+            clear: none;
+        }
+    }
+}
+/*商品列表样式 通用*/
+.product-list-part{
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        clear: both;
+        li{
+            width: 9.375rem;
+            float: left;
+            height: auto;
+            background-color: #f8f8f8;
+            position: relative;
+            /*margin: 0 0 0.625rem 0.3125rem;*/
+            margin: 0 0 0.32rem 0.3125rem;
+            -moz-box-shadow:2px 0 3px #d8d8d8;
+            -webkit-box-shadow:2px 0 3px #d8d8d8;
+            box-shadow:2px 0 3px #d8d8d8;
+            a{
+                display: block;
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                width: 100%;
+                height: 100%;
+                overflow: hidden;
+                z-index: 1;
+            }
+            .img-box{
+                width: 100%;
+                /*height: 9.25rem;*/
+                overflow: hidden;
+                clear: both;
+                img{
+                    width: 100%;
+                }
+            }
+            .small-count-part{
+                margin: 0 0.3rem 0.3125rem;
+                float: left;
+                button{
+                    padding-top: 0px;
+                }
+            }
+            .price{
+                width: 8.25rem;
+                height: auto;
+                overflow: hidden;
+                clear: both;
+                margin: 0 auto;
+                span{
+                    font-size: 0.875rem;
+                    color: #F00;
+                }
+                font{
+                    font-size: 0.75rem;
+                    color: #999;
+                    padding-left: 0.625rem;
+                    text-decoration: line-through;
+                }
+            }
+            p{
+                /*width: 8.25rem;*/
+                width: 100%;
+                height: auto;
+                clear: both;
+                font-size: 0.75rem;
+                /*padding: 0.3125rem 0;*/
+                padding: 0 0.15rem 0 0.3125rem;
+                line-height: 1.5;
+                overflow : hidden;
+                min-height: 2.3rem;
+                text-overflow: ellipsis;
+                display: -webkit-box;
+                -webkit-line-clamp: 2;
+                -webkit-box-orient: vertical;
+                font-weight: normal;
+                margin:0 auto;
+                color: #818d8e;
+            }
+        }
+}

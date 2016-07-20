@@ -1,0 +1,60 @@
+.news-list-page-header{}
+.news-list-page-body{
+    .top-banner{
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        position: relative;
+        img{
+            width: 100%;
+            display: block;
+        }
+        p{
+            position: absolute;
+            bottom: 0px;
+            left: 0px;
+            text-align: left;
+            text-indent: 12pt;
+            width: 100%;
+            display: block;
+            margin: 0px;
+            color: #FFF;
+            height: 2rem;
+            line-height: 2rem;
+            font-size: 0.875rem;
+            font-weight: normal;
+            opacity: 0.8;
+            z-index: 2;
+            background: -webkit-linear-gradient(rgba(0,0,0,0.03),rgba(0,0,0,0.7));
+        }
+        a{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0px;
+            left: 0px;
+            display: block;
+            overflow: hidden;
+            z-index: 99;
+        }
+        .like{
+            display: inline-block;
+            min-height: 2rem;
+            min-height: 1.7rem;
+            line-height: 2.5;
+            padding: 0 0.5rem 0 1.4rem;
+            border-radius: 0 0 3px 3px;
+            color: #FFF;
+            position: absolute;
+            top: 0px;
+            right: 1rem;
+            background: #5ccad0 url('../assets/nlike_icon.png') left center no-repeat;
+            background-size: 100%;
+        }
+    }
+    .news-product-list{
+        li{
+            margin-top: 0.625rem;
+        }
+    }
+}

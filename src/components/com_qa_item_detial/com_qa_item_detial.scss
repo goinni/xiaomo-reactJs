@@ -1,0 +1,57 @@
+.communityqa-detail-page-header{
+    
+}
+.community-qaitem-detail-page-body{
+    .main-title{
+        width: 100%;
+        height: 3.125rem;
+        line-height: 3.125rem;
+        overflow: hidden;
+        background: #FFF;
+        font-size: 0.875rem;
+        font-weight: bold;
+        text-indent: 0.75rem;
+    }
+    .main-qa-text{
+        width: 100%;
+        height: auto;
+        line-height: 1.5;
+        overflow: hidden;
+        padding: 1rem;
+        background: #FFF;
+        color: #303030;
+        clear: both;
+        margin-top: 0rem;
+        border-top: 1px solid #f0f0f0;
+        font-size: 0.75rem;
+    }
+    .share-user-info-bb{
+        li{
+            position: relative;
+
+            .hao-part{
+                position: absolute;
+                top: 10px;
+                display: inline-block;
+                right: 15px;
+                font{
+                    color: #999;
+                    float: left;
+                    line-height: 2.5;
+                }
+                .hao-icon{
+                    width: 25px;
+                    display: block;
+                    height: 25px;
+                    float: left;
+                    background: url('../assets/icon_hao.png') center center no-repeat;
+                    background-size: 70%;
+                    &.active{
+                        background: url('../assets/icon_hao_active.png') center center no-repeat;
+                        background-size: 70%;
+                    }
+                }
+            }
+        }
+    }
+}

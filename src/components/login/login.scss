@@ -1,0 +1,58 @@
+.login-history-back span{
+    background: url('../assets/back1.png') center center no-repeat;
+    background-size: 100%;
+    width: 1.5rem;
+    height: 1.5rem;
+    top: 7px!important;
+    &:before {
+        content: '';
+    }
+}
+.login-page-header{
+    background: #FFF;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    h1,span{
+        color: #000!important;
+    }
+}
+.login-page-body{
+    background: #FFF!important;
+    .input-group{
+        background: none!important;
+    }
+    .input-row,input{
+        height: 2.75rem;
+    }
+    label{
+        line-height: 2.75rem;
+        padding: 0px;
+        text-indent: 1.5rem;
+        font-size: 1rem;
+    }
+    a.btn-positive{
+        width: 90%;
+        margin: 0 auto;
+        overflow: hidden;
+        clear: both;
+        height: 2.25rem;
+        line-height: 2.25rem;
+        padding: 0px;
+        border-radius: 1.125rem;
+        margin-top: 1rem;
+        border:none;
+        background: #23b8c0;
+    }
+    p{
+        width: 90%;
+        margin: 1.2rem auto 0;
+        height: auto;
+        overflow: hidden;
+        border:none;
+        button,a{
+            font-size: 1rem;
+            color: #949494;
+        }
+    }
+}

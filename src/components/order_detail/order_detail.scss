@@ -1,0 +1,65 @@
+.order-detail-page-header{
+
+}
+.orderdetail-page-body{
+    .order-detail-body{
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        padding-bottom: 44px;
+        .order-list{
+            padding-top: 0px;
+        }
+        .o-time-info{
+            width: 100%;
+            height: auto;
+            overflow: hidden;
+            background-color: #fff;
+            height: 2.75rem;
+            border-bottom: 1px solid #DCDCDC;
+            margin-top: 0.75rem;
+            div{
+                width: 90%;
+                clear: both;
+                margin: 0 auto;
+                line-height: 1.5;
+                font-size: 0.875rem;
+                &.o-num{
+                    color: #666;
+                }
+                &.o-time{
+                    color: #797979;
+                }
+            }
+        }
+        .os-stauts-place{
+            width: 100%;
+            height: auto;
+            overflow: hidden;
+            clear: both;
+            margin-bottom: 0.325rem;
+            background-color: #FFF;
+            height: 2.75rem;
+            div{
+                display: inline-block;
+                font-size: 1rem;
+                line-height: 2.7rem;
+                &.os-name{
+                    color: #797979;
+                    float: left;
+                    padding-left: 5%;
+                }
+                &.os-stauts2,
+                &.os-stauts{
+                    color: #f45051;
+                    float: right;
+                    padding-right: 5%;
+                }
+                &.os-stauts2{
+                    color: #797979;
+                }
+            }
+
+        }
+    }
+}

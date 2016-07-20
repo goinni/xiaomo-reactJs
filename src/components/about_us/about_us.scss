@@ -1,0 +1,15 @@
+.about-us-page-header{}
+.about-us-page-body{
+    background: #FFF;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    .about-us-body{
+       background-color: #FFF;
+       font-size: 0.75rem;
+       line-height: 3;
+       padding: 0 15px;
+       background: url('../assets/aboutus.jpg') center center no-repeat;
+       background-size: 100% 100%;
+    }
+}

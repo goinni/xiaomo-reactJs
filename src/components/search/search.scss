@@ -1,0 +1,109 @@
+.search-page-header{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-color:#f7f8f8;
+    border-color:#b2b2b2;
+    a.btn{
+        color: #999999;
+    }
+    .title{
+        input{
+            width: 16.5rem;
+            float: left;
+            margin: 0.45rem;
+            color: #333;
+            text-indent: 1rem;
+            font-weight: normal;
+            &::-webkit-input-placeholder { 
+             color: #C1C0C0; 
+            } 
+        }
+    }
+}
+.search-page-body{
+    background: #f5f8fa!important;
+    .hot-key-place{
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        clear: both;
+        p{
+            color:#1fbdc2 ;
+            font-size: 0.75rem;
+            padding-top: 1rem;
+            text-indent: 1rem;
+        }
+        ol{
+            width: 100%;
+            height: auto;
+            overflow: hidden;
+            clear: both;
+            li{
+                float: left;
+                width: 25%;
+                height: 1.5rem;
+                line-height: 1.5rem;
+                display: inline;
+                text-align: center;
+                color: #666;
+                font-size: 0.75rem;
+                background: #FFF;
+                border-radius: 0.7rem; 
+                margin-bottom: 0.5rem;
+                a{
+                    color: #666;
+                    font-size: 0.75rem;
+                }
+            }
+        }
+    }
+    .search-result{
+        display: none;
+        width:95%;
+        height: auto;
+        overflow: hidden;
+        clear: both;
+        margin: 0.75rem auto;
+        li{
+            clear: both;
+            width: 100%;
+            height: auto;
+            border-bottom: 1px solid #E0E0E0 !important;
+            overflow: hidden;
+            background: #FFF;
+            &:last-child{
+                border-bottom:none !important;
+            };
+            a{
+                width: 50%;
+                height: 2.5rem;
+                line-height: 2.5rem;
+                overflow: hidden;
+                display: block;
+                color: #666;
+                float: left;
+                font-size: 0.75rem;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                text-indent: 0.75rem;
+                &.mark{
+                    text-indent: 0rem;
+                    width: 25%;
+                    span{
+                        background: #f0f0f0;
+                        padding: 0.1875rem 0.3125rem;
+                        display: inline;
+                        border-radius: 3px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+

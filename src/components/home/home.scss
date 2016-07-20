@@ -1,0 +1,155 @@
+#footer-menubar-part{
+    a{
+        &.active{
+            color: #23B8C0;
+            span.icon-home{
+                background: url('../assets/m1.png') center center no-repeat;
+                background-size: 100%;
+            }
+            span.icon-list{
+                background: url('../assets/m2.png') center center no-repeat;
+                background-size: 100%;
+            }
+            span.icon-star-filled{
+                background: url('../assets/m3.png') center center no-repeat;
+                background-size: 100%;
+            }
+            span.icon-person{
+                background: url('../assets/m4.png') center 1px no-repeat;
+                background-size: 100%;
+            }
+        }
+         span.icon-home{
+            background: url('../assets/m10.png') center center no-repeat;
+            background-size: 100%;
+            &:before {
+                content: '';
+            } 
+        }
+        span.icon-list{
+            background: url('../assets/m20.png') center center no-repeat;
+            background-size: 100%;
+            &:before {
+                content: '';
+            } 
+        }
+        span.icon-star-filled{
+            background: url('../assets/m30.png') center center no-repeat;
+            background-size: 100%;
+            &:before {
+                content: '';
+            } 
+        }
+        span.icon-person{
+            background: url('../assets/m40.png') center 1px no-repeat;
+            background-size: 100%;
+            &:before {
+                content: '';
+            } 
+        }
+    }
+   
+}
+
+.home-page-header{
+    width: 100%;
+    height: auto;
+}
+.home-page-body{
+    
+    .marks-area-box{
+        width:100%;
+        height: auto;
+        overflow: hidden;
+        clear: both;
+        margin: 0 ;
+        padding: 0.625rem 0 0 0;
+        li{
+            width: 4.21875rem;
+            outline: none;
+            margin: 0 0 0.625rem 0.625rem;
+            color: #1fbdc2;
+            border:1px solid #1fbdc2;
+            position: relative;
+            float: left;
+            display: inline-block;
+            text-align: center;
+        }
+        a{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0px;
+            left: 0px;
+        }
+    }
+    .product{
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        clear: both;
+        padding-top: 10px;
+        /*margin-bottom: 3.1rem;
+        padding-bottom: 10px;*/
+        li{
+            width: 9.25rem;
+            float: left;
+            height: auto;
+            position: relative;
+            margin: 0rem 0 0.5rem 0.5rem;
+            -moz-box-shadow:2px 0 3px #d8d8d8;
+            -webkit-box-shadow:2px 0 3px #d8d8d8;
+            box-shadow:2px 0 3px #d8d8d8;
+            a{
+                display: block;
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                width: 100%;
+                height: 100%;
+                overflow: hidden;
+                z-index: 1;
+            }
+            .img-box{
+                width: 100%;
+                height: 9.25rem;
+                overflow: hidden;
+                clear: both;
+                img{
+                    width: 100%;
+                }
+            }
+            h4{
+                width: 100%;
+                height: auto;
+                font-size: 0.75rem;
+                font-weight: bold;
+                text-indent: 0.5rem;
+                clear: both;
+                color: #7d898a;
+                padding: 0.5rem 0;
+                margin-bottom: 0px;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+            }
+            p{
+                width: 8.25rem;
+                height: auto;
+                clear: both;
+                font-size: 0.75rem;
+                padding-bottom: 0.75rem;
+                line-height: 1.1rem;
+                height: 2.1rem;
+                overflow : hidden;
+                text-overflow: ellipsis;
+                display: -webkit-box;
+                -webkit-line-clamp: 2;
+                -webkit-box-orient: vertical;
+                font-weight: normal;
+                margin:0 auto;
+                color: #818d8e;
+            }
+        }
+    }
+}

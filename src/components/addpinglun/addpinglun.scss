@@ -1,0 +1,32 @@
+.gooddetail-page-header{
+    .pull-right{
+        font-size: 1rem;
+        color: #23B8C0!important;
+        &:before{
+            content:'';
+            
+        };
+    }
+}
+.add-pinglun-page-body{
+    .tip{
+        width: 100%;
+        color: #23B8C0;
+        padding: 0.5rem;
+    }
+    .text{
+        width: 100%;
+        background: #FFF;
+        height: auto;
+        overflow: hidden;
+        padding: 1rem 0;
+        textarea{
+            width: 95%;
+            margin: 0 auto;
+            display: block;
+            min-height: 7rem;
+            font-size: 0.875rem;
+            border: none;
+        }
+    }
+}

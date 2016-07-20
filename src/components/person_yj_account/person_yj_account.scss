@@ -1,0 +1,54 @@
+.person-yjaccount-page-header{}
+.person-yjaccount-page-body{
+    .yjaccount-us-body{
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        margin: 0 auto;
+        background: #FFF;
+        .table-view{
+            margin-bottom: 0px;
+        }
+        .table-view-cell{
+            color: #797979; 
+            background: #ECECEC;
+            background-position: 0px 100%;
+            .navigate-right:after{
+                right: 15px;
+                content: '\e814';
+            }
+            &.active{
+                .navigate-right:after{
+                    right: 15px;
+                    content: '\e81f';
+                }
+            }
+            span{
+                position: relative;
+                display: block;
+                padding: inherit;
+                margin: -11px -65px -11px -15px;
+                overflow: hidden;
+                background: #FFF;
+                border-bottom: 1px solid #f0f0f0;
+            }
+            div{
+                width: 110%;
+                height: auto;
+                overflow: hidden;
+                padding: 10px 0;
+                position: relative;
+                top: 10px;
+                left: 0px;
+                display: none;
+            }
+        }
+        h5{
+            color: #333;
+        }
+        p{
+            color: #666;
+        }
+    }
+    
+}

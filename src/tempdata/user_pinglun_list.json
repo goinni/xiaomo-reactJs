@@ -1,0 +1,32 @@
+{
+    "status": 0,
+    "message": "success or faile msg",
+    "result":{
+        "currentPage":"1",
+        "pageSize":"10",
+        "totalItems":"100",
+        "datas":[{
+            "content":"风格深刻地反映出作者对中共党史的深邃造诣和敏锐眼光",
+            "user":{"name":"灰太狼","phonenum":"13888888888","nikename":"精力旺盛","faceimg":"/assets/tx2.jpg"},
+            "userid":"7EDA0591165E4E018396F079114B2001",
+            "comtid":"2",
+            "infoid":"D6A8FFE72D014FFC85413345E06FCE11",
+            "delflag":0,
+            "replyid":"1",
+            "addtime":"2016-03-03 12:23:33",
+            "floorno":2,
+            "zannum":null
+        }, {
+            "content":"作者毕十年之力，成一家之言，其成书风格深刻地反映出作者对中共党史的深邃造诣和敏锐眼光。高华教授在本书付印之前，已在香港中文大学",
+            "user":{"name":"刘德华","phonenum":"18510239278","nikename":"明星","faceimg":"/assets/tx1.jpg"},
+            "userid":"7EDA0591165E4E018396F079114B2001",
+            "comtid":"1",
+            "infoid":"D6A8FFE72D014FFC85413345E06FCE11",
+            "delflag":0,
+            "replyid":"1",
+            "addtime":"2016-01-02 17:17:00",
+            "floorno":1,
+            "zannum":null
+        }]
+    }
+}

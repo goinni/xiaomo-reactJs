@@ -1,0 +1,39 @@
+{
+    "result":
+        [
+            {
+                "name":"张三",                          
+                "id":1,                               
+                "phone":"15998333439",                      
+                "userid":"7EDA0591165E4E018396F079114B2001",   
+                "addtime":"2016-03-02 17:33:59",               
+                "province":"210000",                            
+                "city":"210100",                              
+                "district":"210102",                             
+                "detailaddr":"新路海马工业区二栋六楼二单元",                     
+                "idcard":"210181198201202133",                 
+                "isdefault":1,                              
+                "provincename":"辽宁省",                   
+                "cityname":"沈阳市",                         
+                "districtname":"和平区"  
+            },
+            {
+                "name":"张三",                          
+                "id":2,                               
+                "phone":"15998333439",                      
+                "userid":"7EDA0591165E4E018396F079114B2001",   
+                "addtime":"2016-03-02 17:33:59",               
+                "province":"210001",                            
+                "city":"210101",                              
+                "district":"210101",                             
+                "detailaddr":"中关村",                     
+                "idcard":"210181198201202133",                 
+                "isdefault":0,                              
+                "provincename":"北京市",                   
+                "cityname":"北京市",                         
+                "districtname":"海淀区"  
+            }
+       ],
+    "status":0,
+    "message":"请求成功_成功找到数据"
+}

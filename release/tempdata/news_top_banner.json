@@ -1,0 +1,25 @@
+{
+    "result": {
+            "content":"",
+            "title":"减肥美容在这里", 
+            "imgurl":"/assets/temp_n_03.jpg", 
+            "sortid":2,
+            "userid":null, 
+            "infoSort":{"name":"资讯分类2"},
+            "labels":"", 
+            "infoid":"8961F535CC0B4E7287452BBC76D6C5F2", 
+            "imgurl2":"",
+            "recommend":0, 
+            "delflag":0,  
+            "addtime":"2016-01-19 21:48:17",
+            "summary":"成功男人的秘决",
+            "viewnum":12,                               
+            "likenum":77,                               
+            "sharenum":30,
+            "commnum":null,
+            "discuss":0,
+            "orderweight":1   
+        },
+    "status": 0,
+    "message": "资讯主页顶部最大的banner"
+}

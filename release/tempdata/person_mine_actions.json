@@ -1,0 +1,59 @@
+{
+    "status": 0,
+    "message": "success or faile msg",
+    "result":{
+        "currentPage":"1",
+        "pageSize":"10",
+        "totalItems":"3",
+        "datas":[{
+            "postid": 1,
+            "sortid": 2,
+            "userid": "1002",
+            "title": "为什么十年之力，成一家之言，其成书风格",
+            "imgurl":"../../assets/tx1.jpg",
+            "content":"作者毕十年之力2，成一家之言，其成书风格深刻地反映出作者对中共党史的邃造诣和敏锐眼光"
+        },{
+            "postid": 2,
+            "sortid": 1,
+            "userid": "1002",
+            "title": "为什么十年之力3，成一家之言，其成书风格",
+            "imgurl":"../../assets/tx2.jpg",
+            "content":"作者毕十年之力3，成一家之言，其成书风格深刻地反映出作者对中共党史的邃造诣和敏锐眼光"
+        },{
+            "postid": 3 ,
+            "sortid": 1,
+            "userid": "1002",
+            "title": "为什么十年之力，成一家之言，其成书风格",
+            "imgurl":"../../assets/tx3.jpg",
+            "content":"作者毕十年之力，成一家之言，其成书风格深刻地反映出作者对中共党史的邃造诣和敏锐眼光"
+        },{
+            "postid": 4,
+            "sortid": 2,
+            "userid": "1002",
+            "title": "为什么十年之力，成一家之言，其成书风格",
+            "imgurl":"../../assets/tx2.jpg",
+            "content":"作者毕十年之力，成一家之言，其成书风格深刻地反映出作者对中共党史的邃造诣和敏锐眼光"
+        },{
+            "postid": 5 ,
+            "sortid": 1,
+            "userid": "1002",
+            "title": "为什么十年之力，成一家之言，其成书风格",
+            "imgurl":"../../assets/tx3.jpg",
+            "content":"作者毕十年之力，成一家之言，其成书风格深刻地反映出作者对中共党史的邃造诣和敏锐眼光"
+        },{
+            "postid": 6,
+            "sortid": 1,
+            "userid": "1002",
+            "title": "为什么十年之力，成一家之言，其成书风格",
+            "imgurl":"../../assets/tx2.jpg",
+            "content":"作者毕十年之力，成一家之言，其成书风格深刻地反映出作者对中共党史的邃造诣和敏锐眼光"
+        },{
+            "postid": 7 ,
+            "sortid": 2,
+            "userid": "1002",
+            "title": "为什么十年之力，成一家之言，其成书风格",
+            "imgurl":"../../assets/tx3.jpg",
+            "content":"作者毕十年之力，成一家之言，其成书风格深刻地反映出作者对中共党史的邃造诣和敏锐眼光"
+        }]
+    }
+}

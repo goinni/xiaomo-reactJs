@@ -1,0 +1,61 @@
+.zc-home-page-header{
+    
+}
+.zc-home-page-body{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background: #FFF!important;
+    .zc-home-body{
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        background: #FFF;
+    }
+    img{
+        display: block;
+        border: none;
+        margin: 2rem auto 0;
+    }
+    .desc{
+        width: 80%;
+    }
+    .timg{
+        width: 90%;
+    }
+    .btn{
+        width: 50%;
+        height: auto;
+        border: none;
+        margin: 0 auto;
+        display: block;
+        position: relative;
+        overflow: hidden;
+        background: #FFF;
+        img{
+            width: 100%;
+            border: none;
+        }
+        a{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0px;
+            left: 0px;
+            z-index: 2;
+        }
+        
+    }
+    p{
+        font-size: 0.875rem;
+        clear: both;
+        color: #999;
+        line-height: 1.5;
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+    }
+}

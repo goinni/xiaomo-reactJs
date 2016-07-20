@@ -1,0 +1,108 @@
+.buycar-page-header{
+
+}
+.buycar-page-body{
+    .order-list{
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        clear: both;
+        padding-top: 0.5rem;
+        li{
+            width: 19.6875rem;
+            height: auto;
+            overflow: hidden;
+            clear: both;
+            background-color: #FFF;
+            margin: 0 auto 0.3125rem;
+            padding: 0.5rem 0;
+            position: relative;
+            .img-box{
+                width: 4.5rem;
+                height: 4.5rem;
+                margin: 0 0.55rem 0 0.5525rem;
+                overflow: hidden;
+                float: left;
+                img{
+                    width: 100%;
+                }
+            }
+            .right{
+                width: 14rem;
+                height: auto;
+                overflow: hidden;
+                float: left;
+                .tex{
+                    width: 100%;
+                    height: 3.125rem;
+                    clear: both;
+                    overflow: hidden;
+                    line-height: 1.4;
+                    color: #323C3F;
+                    text-overflow: ellipsis;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 3;
+                    -webkit-box-orient: vertical;
+                    b{
+                        color: #F00;
+                    }
+                }
+                .hdl{
+                    width: 100%;
+                    clear: both;
+                    height: auto;
+                    overflow: hidden;
+                    b{
+                        float: left;
+                        display: inline-block;
+                        color: #FF3824;
+                        font-size: 0.85rem;
+                        padding-right: 1rem;
+                    }
+                    .jia-jian-count{
+                        display: inline-block;
+                        float: left;
+                        .jia,.jian{
+                            width: 2rem;
+                            height: 1.3125rem;
+                            text-align: center;
+                            font-size: 0.85rem;
+                            line-height: 1.3125rem;
+                            color: #333;
+                            float: left;
+                            background-color: #e2e4e3;
+                        }
+                        .jia{
+                            border-radius: 0 3px 3px 0;
+                        }
+                        .count{
+                            text-align: center;
+                            min-width: 2rem;
+                            padding:0 0.3125rem;
+                            height: 1.3125rem;
+                            line-height: 1.3125rem;
+                            color: #000;
+                            font-size: 0.75rem;
+                            float: left;
+                            border:1px solid #f0f0f0;
+                            margin: 0 1px;
+                            background-color: #FFF;
+                        }
+                        .jian{
+                            border-radius: 3px 0 0 3px;
+                        }
+                    }
+                    .del{
+                        float: right;
+                        color: #666;
+                        display: inline-block;
+                        margin-right: 0.75rem;
+                        span{
+                            font-size: 0.9rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

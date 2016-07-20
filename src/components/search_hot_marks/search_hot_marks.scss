@@ -1,0 +1,39 @@
+.search-hotmarks-page-body{
+    .search-hotmarks-part{
+        .hot-key-place{
+            width: 100%;
+            height: auto;
+            overflow: hidden;
+            clear: both;
+            p{
+                color:#1fbdc2 ;
+                font-size: 0.75rem;
+                padding-top: 1rem;
+                text-indent: 1rem;
+            }
+            ol{
+                width: 100%;
+                height: auto;
+                overflow: hidden;
+                clear: both;
+                li{
+                    float: left;
+                    width: 25%;
+                    height: 1.5rem;
+                    line-height: 1.5rem;
+                    display: inline;
+                    text-align: center;
+                    color: #666;
+                    font-size: 0.75rem;
+                    background: #FFF;
+                    border-radius: 0.7rem; 
+                    margin-bottom: 0.5rem;
+                    a{
+                        color: #666;
+                        font-size: 0.75rem;
+                    }
+                }
+            }
+        }
+    }
+}

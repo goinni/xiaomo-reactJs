@@ -1,0 +1,23 @@
+.slide-delete-block{
+    width: 24rem;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    transition: all .5s;
+    .sd-content{
+        float: left;
+        width: 20rem;
+    }
+    .sd-button{
+        width: 4rem;
+        height: 100%;
+        float: left;
+        overflow: hidden;
+        background-color: #F00;
+        color: #FFF;
+        text-align: center;
+        line-height: inherit;
+    }
+}

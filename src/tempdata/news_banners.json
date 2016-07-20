@@ -1,0 +1,28 @@
+{
+    "status": 0,
+    "message": "success or faile msg",
+    "result":{
+        "currentPage":"1",
+        "pageSize":"10",
+        "totalItems":"3",
+        "datas":[{
+            "id": 1,
+            "name": "图一",
+            "desc": "成功男人的秘决",
+            "src":"/assets/n1.jpg",
+            "url": "http://www.baidu.com"
+        },{
+            "id": 2,
+            "name": "图二",
+            "desc": "成功男人的秘决",
+            "src":"/assets/n1.jpg",
+            "url": "http://www.baidu.com"
+        },{
+            "id": 3,
+            "name": "图三",
+            "desc": "成功男人的秘决",
+            "src":"/assets/n1.jpg",
+            "url": "http://www.baidu.com"
+        }]
+    }
+}

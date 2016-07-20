@@ -1,0 +1,111 @@
+{
+"result":
+    [
+        {
+            "state":0,
+            "total":600.0,
+            "parentid":"1603041413001",
+            "brokerage":100.0,
+            "addtime":"2016-03-04 23:50:17",
+            "ordrid":"1603041413001-01",
+            "otype":null,
+            "payprice":600.0,
+            "details":
+                [
+                    {
+                        "name":"六味地黄丸",
+                        "id":"9E3F95EFCA384FB38BAE4840AEA7FB4A",
+                        "state":0,
+                        "brokerage":80.0,
+                        "ptype":1,
+                        "cypercentage":0.2,
+                        "vefifycode":null,
+                        "addtime":"2016-03-04 14:13:17",
+                        "mepdid":"0A2F751D961643AA8889851DA94542B6",
+                        "buyqty":2,
+                        "ordrid":null,
+                        "payprice":400.0,
+                        "usestate":0,
+                        "brokid":null,
+                        "price":200.0,
+                        "subtotal":400.0,
+                        "guoQiShiJian":null
+                    },
+                    {
+                        "name":"海马生物肽",
+                        "id":"D374EE472464443DB9C3BA3DB727C6AF",
+                        "state":0,
+                        "remark":null,
+                        "brokerage":20.0,
+                        "ptype":1,
+                        "cypercentage":0.1,
+                        "vefifycode":null,
+                        "vmGoods":null,
+                        "addtime":"2016-03-04 14:13:17",
+                        "mepdid":"B7D7DE36E44E482BB9F8BE36D61BDEF3",
+                        "buyqty":2,
+                        "ordrid":null,
+                        "payprice":200.0,
+                        "usestate":0,
+                        "brokid":null,
+                        "price":100.0,
+                        "subtotal":200.0,
+                        "guoQiShiJian":null
+                    }
+                ]
+           },
+           {
+                "state":0,
+                "total":30.0,
+                "parentid":"1603041413001",
+                "brokerage":3.0,
+                "addtime":"2016-03-04 14:13:17",
+                "ordrid":"1603041413001-02",
+                "otype":null,
+                "payprice":30.0,
+                "details":
+                    [
+                        {
+                            "name":"服务4",
+                            "id":"2BBCC28791A94B20BE6FAC7D5EE7A8DE",
+                            "state":0,
+                            "remark":null,
+                            "brokerage":1.2000000000000002,
+                            "ptype":2,
+                            "cypercentage":0.1,
+                            "vefifycode":"kEmX4V0s",
+                            "vmGoods":null,
+                            "addtime":"2016-03-04 14:13:17",
+                            "mepdid":"3C043ABC93E64D83BB1D17589C158403",
+                            "buyqty":2,
+                            "payprice":12.0,
+                            "usestate":0,
+                            "brokid":null,
+                            "price":6.0,
+                            "subtotal":12.0,
+                            "guoQiShiJian":"2016-03-07 14:13:17"
+                        },
+                        {
+                            "name":"服务1",
+                            "id":"E02A7C0CB10546CABB129D58868FCDB3",
+                            "state":0,
+                            "remark":null,
+                            "brokerage":1.8,
+                            "ptype":2,
+                            "cypercentage":0.1,
+                            "vefifycode":"lF8U2Uvv",
+                            "addtime":"2016-03-04 14:13:17",
+                            "mepdid":"CBEFD7D4DDE64EDDBB1B8C82370C611F",
+                            "buyqty":2,
+                            "payprice":18.0,
+                            "usestate":0,
+                            "price":9.0,
+                            "subtotal":18.0,
+                            "guoQiShiJian":"2016-03-07 14:13:17"
+                        }
+                    ]
+                }
+            ],
+"status":0,
+"message":"请求成功_成功找到数"
+}

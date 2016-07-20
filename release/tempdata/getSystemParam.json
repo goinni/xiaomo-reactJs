@@ -1,0 +1,10 @@
+{
+    "prefix_pic": "http://123.56.70.86:8080/upload",
+    "prefix_pic_thumbnail": "http://123.56.70.86:8080/upload/thumbnail",
+    "serverPath": "http://123.56.70.86:8080/",
+    "project": "xiaomo/",
+    "share_url": "http://123.56.70.86/app_html/",
+    "result": null,
+    "status": 0,
+    "message": "请求成功_初始化参数"
+}

@@ -1,0 +1,61 @@
+{
+    "status": 0,
+    "message": "首页banner数据",
+    "result":[{
+                "id":1,                            
+                "position":1,                                                   
+                "title":" 产品促销",        
+                "imgurl":"/assets/b3.jpg",           
+                "delflag":0,                                                
+                "addtime":"2016-01-26 22:49:49",                            
+                "summary":"这是一个促销的banner",                           
+                "memo":null,                                                  
+                "linkurl":"/xiaomo/bl/vmgoods_detail.do?vmgoods.id=B3972F3A07B84FF68F31C34F34269EFF", 
+                "ctype":2,                                                
+                "entityid":"B3972F3A07B84FF68F31C34F34269EFF",  
+                "pageSize":10,
+                "currentPage":1
+            },{
+                "id":2,                            
+                "position":1,                                                   
+                "title":" 产品促销",        
+                "imgurl":"/assets/b4.jpg",           
+                "delflag":0,                                                
+                "addtime":"2016-01-26 22:49:49",                            
+                "summary":"这是一个促销的banner",                           
+                "memo":null,                                                  
+                "linkurl":"/xiaomo/bl/vmgoods_detail.do?vmgoods.id=B3972F3A07B84FF68F31C34F34269EFF", 
+                "ctype":2,                                                
+                "entityid":"B3972F3A07B84FF68F31C34F34269EFF",  
+                "pageSize":10,
+                "currentPage":1
+            },{
+                "id":3,                            
+                "position":1,                                                   
+                "title":" 产品促销",        
+                "imgurl":"/assets/b2.jpg",           
+                "delflag":0,                                                
+                "addtime":"2016-01-26 22:49:49",                            
+                "summary":"这是一个促销的banner",                           
+                "memo":null,                                                  
+                "linkurl":"/xiaomo/bl/vmgoods_detail.do?vmgoods.id=B3972F3A07B84FF68F31C34F34269EFF", 
+                "ctype":2,                                                
+                "entityid":"B3972F3A07B84FF68F31C34F34269EFF",  
+                "pageSize":10,
+                "currentPage":1
+            },{
+                "id":4,                            
+                "position":1,                                                   
+                "title":" 产品促销",        
+                "imgurl":"/assets/b1.jpg",           
+                "delflag":0,                                                
+                "addtime":"2016-01-26 22:49:49",                            
+                "summary":"这是一个促销的banner",                           
+                "memo":null,                                                  
+                "linkurl":"/xiaomo/bl/vmgoods_detail.do?vmgoods.id=B3972F3A07B84FF68F31C34F34269EFF", 
+                "ctype":2,                                                
+                "entityid":"B3972F3A07B84FF68F31C34F34269EFF",  
+                "pageSize":10,
+                "currentPage":1
+            }]
+}

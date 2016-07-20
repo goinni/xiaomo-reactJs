@@ -1,0 +1,57 @@
+.personal-mylike-page-header{}
+.personal-mylike-page-body{
+    #scroller{
+        margin-top: 44px;
+    }
+    #itemShContent{
+        center{
+            font-size: 1rem;
+            color: #999;
+            line-height: 6;
+            background: #ECECEC;
+            margin-top: 10px;
+        }
+    }
+}
+.mine-like-three-nav{
+    position: fixed;
+    top: 64px;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 44px;
+    background: #FFF;
+    dl{
+        background-color: #FFF;
+        border: 1px solid #23B8c0;
+        position: relative;
+        display: table;
+        overflow: hidden;
+        font-size: 0.75rem;
+        width: 18.75rem;
+        margin:0.5rem auto;
+        border-radius: 3px;
+        
+        dd{
+            transition: background-color .1s linear;
+            color: #23B8c0;
+            display: table-cell;
+            width: 1%;
+            padding-top: 6px;
+            padding-bottom: 7px;
+            overflow: hidden;
+            line-height: 1;
+            text-align: center;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            border-right: 1px solid #23B8c0;
+            &:last-child{
+                border-right:none;
+            };
+            &:active,&.ac{
+                color:#FFF;
+                background-color: #23B8c0;
+            };
+        }
+    }
+}

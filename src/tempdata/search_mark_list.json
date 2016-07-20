@@ -1,0 +1,35 @@
+{
+    "result":
+    {
+        "name":"小陌",
+        "pageSize":4,"totalPage":1,"currentPage":1,"previousPage":1,"nextPage":1,"topPage":1,"bottomPage":1,"totalItems":4,
+        "datas":
+            [
+                {
+                    "name":"小陌股票",   
+                    "labeid":13,        
+                    "hotflag":0        
+                },
+                {
+                    "name":"小陌健康",
+                    "labeid":12,
+                    "hotflag":0
+                },
+                {
+                    "name":"小陌优品",
+                    "labeid":11,
+                    "hotflag":0
+                },
+                {
+                    "name":"小陌",
+                    "labeid":10,
+                    "hotflag":0
+                }
+            ],
+        "startRow":0,
+        "endRow":4,
+        "splitPage":true
+    },
+    "status":0,
+    "message":"请求成功_获取数据成功"
+}

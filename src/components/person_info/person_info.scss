@@ -1,0 +1,86 @@
+.personinfo-page-header{}
+.personinfo-page-body{
+    .table-view {
+        background: #f8f8f8;
+        .table-view-cell{
+            position: relative;
+            background-position: 0px 100%;
+            color: #707070;
+            .upload-error-msg{
+                margin-left: 20px;
+                color: #999;
+            }
+            .nike-name{
+                position: absolute;
+                right: 42px;
+                width: 70%;
+                top: 12px;
+                color: #333;
+                text-align: right;
+            }
+            .upload-file{
+                display: block;
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                overflow: hidden;
+                top: 0px;
+                right: 0px;
+                z-index: 999;
+                opacity: 0;
+                div{
+                    width: 100%;
+                    height: 44px;
+                }
+            }
+            .headimg{
+                position: absolute;
+                height: 40px;
+                width: 40px;
+                right: 40px;
+                top: 2px;
+                overflow: hidden;
+                border-radius: 20px;
+                img{
+                    width: 100%;
+                    display: block;
+                }
+            }
+            select{
+                position: absolute;
+                top: 0px;
+                right: 0px;
+                width: 80%;
+                height: 100%;
+                border: none;
+                opacity: 0;
+            }
+            input{
+                display: inline-block;
+                width: 80%;
+                margin: 0px;
+                padding: 0px 0 0 10px;
+                height: 20px;
+                font-size: 0.75rem;
+                border: none;
+                background: #f8f8f8;
+                &.brithday-input{
+                    width: 200px;
+                    text-align: right;
+                }
+            }
+            .badge{
+                background: none;
+            }
+        }
+    }
+    .btn-negative{
+        width: 80%;
+        height: 44px;
+        line-height: 44px;
+        overflow: hidden;
+        border-radius: 22px;
+        margin: 0 auto;
+        padding: 0px;
+    }
+}

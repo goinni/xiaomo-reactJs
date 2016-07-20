@@ -1,0 +1,46 @@
+.personyijian-page-header{}
+.person-yijian-page-body{
+    .table-view {
+        .table-view-cell{
+            color: #666;
+            background-position: 0 100%;
+            .icon-trash{
+                width: 20px;
+                height: 20px;
+                background: url('../assets/py_icon1.png') center center no-repeat;
+                background-size: 100%;
+                &:before{
+                    content:'';
+                }
+            }
+            .icon-gear{
+                width: 20px;
+                height: 20px;
+                background: url('../assets/py_icon2.png') center center no-repeat;
+                background-size: 100%;
+                &:before{
+                    content:'';
+                }
+            }
+            .icon-pages{
+                width: 20px;
+                height: 20px;
+                background: url('../assets/py_icon3.png') center center no-repeat;
+                background-size: 100%;
+                &:before{
+                    content:'';
+                }
+            }
+            .icon-pages2{
+                width: 20px;
+                height: 20px;
+                background: url('../assets/py_icon4.png') center center no-repeat;
+                background-size: 100%;
+                &:before{
+                    content:'';
+                }
+            }
+        }
+    }
+    
+}
